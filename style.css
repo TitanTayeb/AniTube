@@ -482,7 +482,6 @@ body
     overflow: hidden;
     object-fit: cover;
     backdrop-filter: blur(20px);
-    background: rgba(0,0,0,0.2);
     padding: 20px;
     box-sizing: border-box;
     position: relative;

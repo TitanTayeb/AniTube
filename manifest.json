@@ -1,0 +1,20 @@
+{
+  "name": "AniTube",
+  "short_name": "AniTube",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/42Ljx0L/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/42Ljx0L/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen", "standalone"
+  "background_color": "#000000",
+  "theme_color": "#1c2e37" 
+}

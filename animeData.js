@@ -1031,7 +1031,7 @@ const animes = [
             blue: '0.0'
         }
     },
-    {
+   /* {
         name: '',
         genre: ['', '', '', ''],
         type: 'Movie',
@@ -1042,7 +1042,7 @@ const animes = [
             yellow: '0.0',
             blue: '0.0'
         }
-    },
+    }, */
     
     
     

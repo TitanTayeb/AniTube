@@ -629,7 +629,7 @@ body
 }
 .card:hover
 {
-    background: #1c2e37;
+    box-shadow: 0 0 0 2px #1c2e37;
 }
 .card img {
     width: 100%;

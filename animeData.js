@@ -15,7 +15,7 @@ const animes = [
         video: 'https://fast.wistia.net/embed/iframe/u9vakbgihd?seo=true&videoFoam=false',
         img: 'https://i.ibb.co/6r3PV14/suzume.webp',
         duration: '02:01:28',
-        download: '',
+        download: 'https://s3taku.com/download?id=MjAzMTM0&typesub=Gogoanime-SUB&title=Suzume+no+Tojimari+Episode+1',
     },
     {
         name: 'Your Name',
@@ -24,7 +24,7 @@ const animes = [
         video: 'https://fast.wistia.net/embed/iframe/2zh0m22eol?seo=true&videoFoam=false',
         img: 'https://i.ibb.co/TbN07Ry/your-name.webp',
         duration: '01:46:35',
-        download: '',
+        download: 'https://s3taku.com/download?id=NzU4ODg=&typesub=Gogoanime-SUB&title=Kimi+no+Na+wa.+Episode+1',
     },
     {
         name: 'Weathering With You',
@@ -33,7 +33,7 @@ const animes = [
         video: 'https://fast.wistia.net/embed/iframe/6by15a9nzw?seo=true&videoFoam=false',
         img: 'https://i.ibb.co/Z8sqX5c/weathering-with-you.webp',
         duration: '01:54:00',
-        download: '',
+        download: 'https://s3taku.com/download?id=MTM5MDA3&typesub=Gogoanime-SUB&title=Tenki+no+Ko+Episode+1',
     },
     {
         name: 'I Want To Eat Your Pancreas',
@@ -42,7 +42,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/W5vmJWF/I-want-to-eat-your-pancreas.webp',
         duration: '01:48:00',
-        download: '',
+        download: 'https://s3taku.com/download?id=MTExNzIz&typesub=Gogoanime-SUB&title=Kimi+no+Suizou+wo+Tabetai+Episode+1',
     },
     {
         name: 'A Silent Voice',
@@ -51,7 +51,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/XDXnRwR/a-silent-voice.webp',
         duration: '02:09:00',
-        download: '',
+        download: 'https://s3taku.com/download?id=OTgyMzM=&typesub=Gogoanime-SUB&title=Koe+no+Katachi+-+MOVIE+Episode+1',
     },
     {
         name: 'Spirited Away',
@@ -60,7 +60,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/3dQKzhZ/spirited-away.webp',
         duration: '02:05:00',
-        download: '',
+        download: 'https://s3taku.com/download?id=MjIxNDM5&typesub=Gogoanime-SUB&title=Sen+to+Chihiro+no+Kamikakushi+Episode+1',
     },
     {
         name: 'A Whisker Away',
@@ -69,7 +69,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/6vKt4bB/a-whisker-away.webp',
         duration: '01:44:00',
-        download: '',
+        download: 'https://s3taku.com/download?id=MTQxNDAz&typesub=Gogoanime-SUB&title=Nakitai+Watashi+wa+Neko+wo+Kaburu+Episode+1',
     },
     {
         name: 'To Me, The One Who Loved You',
@@ -78,7 +78,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/mcYP0m4/to-me-the-one-who-loved-you.webp',
         duration: '0:0:0',
-        download: '',
+        download: 'https://s3taku.com/download?id=MjAyMDQ1&typesub=Gogoanime-SUB&title=Kimi+wo+Aishita+Hitori+no+Boku+e+Episode+1',
     },
     {
         name: 'To Every You Ive Loved Before',
@@ -87,7 +87,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/C0csk5D/to-every-you-I-ve-loved-before.webp',
         duration: '0:0:0',
-        download: '',
+        download: 'https://s3taku.com/download?id=MjAyMTUw&typesub=Gogoanime-SUB&title=Boku+ga+Aishita+Subete+no+Kimi+e+Episode+1',
     },
     {
         name: 'Josse: Tiger And Fish',

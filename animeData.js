@@ -48,7 +48,7 @@ const animes = [
         name: 'A Silent Voice',
         genre: ['Romance', 'Drama', 'School'],
         type: 'Movie',
-        video: '',
+        video: 'https://fast.wistia.net/embed/iframe/2gwwc5mydi?seo=true&videoFoam=false',
         img: 'https://i.ibb.co/XDXnRwR/a-silent-voice.webp',
         duration: '02:09:00',
         download: 'https://s3taku.com/download?id=OTgyMzM=&typesub=Gogoanime-SUB&title=Koe+no+Katachi+-+MOVIE+Episode+1',

@@ -200,7 +200,7 @@ body
 }
 
 .search-results .result-content h5 .highlight {
-    color: #264653; /* Mint color for text */
+    color: #FF2BFFEA; /* Mint color for text */
 }
 
 .search-results .result-content .genre .highlight {

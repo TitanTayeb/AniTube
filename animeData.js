@@ -39,7 +39,7 @@ const animes = [
         name: 'I Want To Eat Your Pancreas',
         genre: ['Romance', 'Drama', 'Emotional'],
         type: 'Movie',
-        video: 'https://fast.wistia.net/embed/iframe/y9f79vd80b?seo=true&videoFoam=false',
+        video: '',
         img: 'https://i.ibb.co/W5vmJWF/I-want-to-eat-your-pancreas.webp',
         duration: '01:48:00',
         download: 'https://s3taku.com/download?id=MTExNzIz&typesub=Gogoanime-SUB&title=Kimi+no+Suizou+wo+Tabetai+Episode+1',

@@ -57,7 +57,7 @@ const animes = [
         name: 'Spirited Away',
         genre: ['Kids', 'Fantasy', 'Adventure'],
         type: 'Movie',
-        video: '',
+        video: 'https://fast.wistia.net/embed/iframe/wj4kn3fv53?seo=true&videoFoam=true',
         img: 'https://i.ibb.co/3dQKzhZ/spirited-away.webp',
         duration: '02:05:00',
         download: 'https://s3taku.com/download?id=MjIxNDM5&typesub=Gogoanime-SUB&title=Sen+to+Chihiro+no+Kamikakushi+Episode+1',

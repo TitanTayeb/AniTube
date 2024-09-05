@@ -735,7 +735,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/2q6VK2v/in-this-corner-of-the-world.webp',
         duration: '0:0:0',
-        download: '',
+        download: 'https://s3taku.com/download?id=MTAxNzcx&typesub=Gogoanime-SUB&title=Kono+Sekai+no+Katasumi+ni+Episode+1',
     },
     {
         name: 'Anohana: Movie',
@@ -762,7 +762,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/F3XJNNh/colorful.webp',
         duration: '0:0:0',
-        download: '',
+        download: 'https://s3taku.com/download?id=MTEyNTI4&typesub=Gogoanime-SUB&title=Colorful+%28Movie%29+Episode+1',
     },
     {
         name: 'Hal',
@@ -771,7 +771,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/F3LSCxG/hal.webp',
         duration: '0:0:0',
-        download: '',
+        download: 'https://s3taku.com/download?id=NDE0Mjk=&typesub=Gogoanime-SUB&title=Hal+Episode+1',
     },
    /* {
         name: '',

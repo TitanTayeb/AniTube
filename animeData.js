@@ -732,7 +732,7 @@ const animes = [
         name: 'In This Corner Of The World',
         genre: ['Historical', 'Drama', 'War', 'Slice Of Life'],
         type: 'Movie',
-        video: '',
+        video: 'https://fast.wistia.net/embed/iframe/2j8ciz2fe2?seo=true&videoFoam=false',
         img: 'https://i.ibb.co/2q6VK2v/in-this-corner-of-the-world.webp',
         duration: '0:0:0',
         download: 'https://s3taku.com/download?id=MTAxNzcx&typesub=Gogoanime-SUB&title=Kono+Sekai+no+Katasumi+ni+Episode+1',

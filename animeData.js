@@ -312,7 +312,7 @@ const animes = [
         video: '',
         img: 'https://i.ibb.co/KcPtNzM/the-children-who-chase-lost-voices.webp',
         duration: '0:0:0',
-        download: '',
+        download: 'https://s3taku.com/download?id=NDMyMjI=&typesub=Gogoanime-SUB&title=Children+who+Chase+Lost+Voices+Episode+1',
     },
     {
         name: 'Summer Wars',

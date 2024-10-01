@@ -69,8 +69,8 @@ body
     outline: none;
     white-space: nowrap;
     text-align: left;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     border: none;
     border-radius: 5px;
     background: transparent;
@@ -107,7 +107,7 @@ body
 }
 
 .engine .search i {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 800;
     color: #fff;
     transition: 0.2s ease-in;

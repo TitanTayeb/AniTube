@@ -112,7 +112,7 @@ body
     color: #fff;
     transition: 0.2s ease-in;
 }
-.engine .search:hover i
+.engine .search:active i
 {
     color: #40ffb6;
 }

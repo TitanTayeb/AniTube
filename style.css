@@ -569,7 +569,7 @@ body
     padding: 16px 12px;    
 }
 
-.button-container button:hover
+.button-container button:active
 {
     transform: translateY(4px);
     box-shadow: none;

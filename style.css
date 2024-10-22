@@ -226,7 +226,7 @@ body
     overflow-y: hidden;
     scroll-behavior: smooth;
     background: transparent;
-    gap: 12px;
+    gap: 8px;
 }
 
 .filter .Genre::-webkit-scrollbar {
@@ -245,14 +245,14 @@ body
     text-transform: ;
     padding: 5px 10px;
     transition: 0.3s;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #0f3b2d;
     background: #1c5e46;
 }
 
 .filter .Genre span:hover
 {
-    color: #40ffb6;
+    color: #1f5d55;
 }
 
 .filter .type {

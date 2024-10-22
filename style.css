@@ -245,6 +245,9 @@ body
     text-transform: ;
     padding: 2px 0;
     transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid #0f3b2d;
+    background: #1c5e46;
 }
 
 .filter .Genre span:hover

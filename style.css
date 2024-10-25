@@ -218,6 +218,7 @@ body
 
 .filter .Genre {
     margin: 12px 16px;
+    z-index: 1;
     margin-bottom: 0;
     position: relative;
     display: flex;
@@ -250,6 +251,7 @@ body
     padding: 5px 10px;
     transition: 0.3s;
     border-radius: 8px;
+    z-index: -10;
     border: 1px solid #0f3b2d;
     background: #1c5e46;
 }

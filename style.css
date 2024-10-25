@@ -225,7 +225,11 @@ body
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-behavior: smooth;
-    background: transparent;
+    background: linear-gradient(to right, 
+                              #1c2e37 0%, 
+                              #1c2e3700 10%, 
+                              #1c2e3700 90%, 
+                              #1c2e37 100%);
     gap: 8px;
 }
 

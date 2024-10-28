@@ -219,7 +219,6 @@ body
 .filter .Genre {
     margin: 12px 16px;
     margin-bottom: 0;
-    z-index: 10;
     position: relative;
     display: flex;
     object-fit: cover;
@@ -227,11 +226,6 @@ body
     overflow-y: hidden;
     scroll-behavior: smooth;
     gap: 8px;
-    background: linear-gradient(to right, 
-                              green 0%, 
-                              red 10%, 
-                              red 90%, 
-                              blue 100%);
 }
 
 .filter .Genre::-webkit-scrollbar {

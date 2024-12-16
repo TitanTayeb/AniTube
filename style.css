@@ -246,7 +246,7 @@ body
     padding: 5px 12px;
     transition: 0.3s;
     border-radius: 8px;
-    border: 1px solid #5c5c5c;
+    border: 1.5px solid #5c5c5c;
     background: #212121;
 }
 
@@ -281,7 +281,7 @@ body
 .filter .type button.active {
    background: #212121;
    color: white;
-   border: 1px solid #5c5c5c;
+   border: 1.5px solid #5c5c5c;
 }
 
 .filter .type button.active i {
@@ -493,6 +493,7 @@ body
     gap: 20px;
     overflow: hidden;
     object-fit: cover;
+    background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(20px);
     padding: 20px;
     box-sizing: border-box;
@@ -541,6 +542,7 @@ body
     border-radius: 8px;
     height: auto;
     background: #212121;
+    opacity: 0.8;
 }
 
 .carousel-card .slider-details h3
@@ -552,7 +554,7 @@ body
     font-family: "Poppins";
     padding: 0;
     margin: 0;
-    border-bottom: 1px solid #5c5c5c
+    border-bottom: 1.5px solid #5c5c5c
 }
 
 .carousel-card .slider-details p

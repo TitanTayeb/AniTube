@@ -246,7 +246,7 @@ body
     padding: 5px 12px;
     transition: 0.3s;
     border-radius: 8px;
-    border: 1px solid #282828;
+    border: 1px solid #5c5c5c;
     background: #212121;
 }
 
@@ -281,10 +281,11 @@ body
 .filter .type button.active {
    background: #212121;
    color: white;
+   border: 1px solid #5c5c5c;
 }
 
 .filter .type button.active i {
-    color: white;
+    color: #202020;
 }
 
 .selected-genre {

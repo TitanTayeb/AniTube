@@ -247,7 +247,7 @@ body
     transition: 0.3s;
     border-radius: 8px;
     border: 1px solid #0f3b2d;
-    background: #1c5e46;
+    background: #03191f;
 }
 
 .filter .Genre span:hover
@@ -612,9 +612,9 @@ body
     display: grid;
     width: auto;
     min-height: 60vh;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 16px;
     overflow: scroll;
     scroll-behavior: smooth;
     background: transparent;

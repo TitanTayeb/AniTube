@@ -538,9 +538,9 @@ body
 .carousel-card .slider-details {
     padding: 8px 12px;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 8px;
     height: auto;
-    background: rgba(0, 0, 0, 0.4);
+    background: #212121;
 }
 
 .carousel-card .slider-details h3
@@ -552,7 +552,7 @@ body
     font-family: "Poppins";
     padding: 0;
     margin: 0;
-    
+    border-bottom: 1px solid #5c5c5c
 }
 
 .carousel-card .slider-details p

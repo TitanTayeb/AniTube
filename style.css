@@ -239,11 +239,11 @@ body
     display: inline-block;
     white-space: nowrap;
     font-family: 'Outfit';
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     text-align: left;
     text-transform: ;
-    padding: 5px 10px;
+    padding: 8px 12px;
     transition: 0.3s;
     border-radius: 8px;
     border: 1px solid #0e2733;
@@ -546,7 +546,7 @@ body
 {
     color: White;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 18px;    
     font-family: "Poppins";
     padding: 0;
@@ -629,15 +629,15 @@ body
     position: relative;
     background: ;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.4s;
     display: flex;
     flex-direction: column;
     text-decoration: none;
 }
 .card:hover img
 {
-    transform: scale(1.05);
-    filter: blur(3px);
+    transform: scale(1.03);
+    filter: blur(2px);
 }
 .card img {
     width: 100%;
@@ -654,7 +654,7 @@ body
     margin-left: 6px;
     color: #eaffff;
     font-family: "Lexend Deca";
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
     white-space: nowrap;
     overflow: hidden;

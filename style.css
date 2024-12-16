@@ -613,7 +613,7 @@ body
     width: auto;
     min-height: 60vh;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 8px;
     padding: 10px;
     overflow: scroll;
     scroll-behavior: smooth;
@@ -629,14 +629,15 @@ body
     position: relative;
     background: ;
     overflow: hidden;
-    transition: 0.2s;
+    transition: 0.3s;
     display: flex;
     flex-direction: column;
     text-decoration: none;
 }
 .card:hover img
 {
-    transform: scale(1.15)
+    transform: scale(1.1)
+    filter: blur(5px)
 }
 .card img {
     width: 100%;

@@ -243,10 +243,10 @@ body
     font-weight: 500;
     text-align: left;
     text-transform: ;
-    padding: 8px 12px;
+    padding: 5px 12px;
     transition: 0.3s;
     border-radius: 8px;
-    border: 1px solid #0e2733;
+    border: 1px solid grey;
     background: #03191f;
 }
 

@@ -636,8 +636,8 @@ body
 }
 .card:hover img
 {
-    transform: scale(1.1)
-    filter: blur(5px)
+    transform: scale(1.1);
+    filter: blur(5px);
 }
 .card img {
     width: 100%;

@@ -239,7 +239,7 @@ body
     display: inline-block;
     white-space: nowrap;
     font-family: 'Outfit';
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     text-align: left;
     text-transform: ;
@@ -558,6 +558,7 @@ body
 {
     color: #d6d6d6;
     font-size: 12px;
+    font-weight: 400;
     font-family: "Alata";
     padding: 0;
     padding-top: 5px;
@@ -651,7 +652,7 @@ body
 .card h5 {
     margin: 10px;
     margin-bottom: 0;
-    margin-left: 6px;
+    margin-left: 0px;
     color: #eaffff;
     font-family: "Lexend Deca";
     font-weight: 400;
@@ -723,7 +724,7 @@ body
 .card p {
     display: inline-block;
     width: 100%;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 12px;
     margin: 0;
     overflow: hidden;

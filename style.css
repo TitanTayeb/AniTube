@@ -636,8 +636,8 @@ body
 }
 .card:hover img
 {
-    transform: scale(1.1);
-    filter: blur(5px);
+    transform: scale(1.05);
+    filter: blur(3px);
 }
 .card img {
     width: 100%;
@@ -739,7 +739,7 @@ body
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%) translateY(100%);
-    background: transparent;
+    background: rgba(5, 38, 36, 0.4);
     color: white;
     border: none;
     border-radius: 100px;
@@ -749,7 +749,7 @@ body
     font-size: 24px;
     transition: opacity 0.3s, transform 0.3s;
     opacity: 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
 }
 
 #scrollToTopButton.show {

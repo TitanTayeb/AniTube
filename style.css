@@ -614,7 +614,7 @@ body
     width: auto;
     min-height: 60vh;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 5px;
     padding: 10px;
     overflow: scroll;
     scroll-behavior: smooth;
@@ -637,14 +637,13 @@ body
 }
 .card:hover img
 {
-    transform: scale(1.03);
-    filter: blur(2px);
+    filter: blur(1px);
 }
 .card img {
     width: 100%;
     height: auto;
     display: block;
-    transition: 0.3s;
+    transition: 0.4s;
     mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
@@ -652,7 +651,7 @@ body
 .card h5 {
     margin: 10px;
     margin-bottom: 0;
-    margin-left: 0px;
+    margin-left: 4px;
     color: #eaffff;
     font-family: "Lexend Deca";
     font-weight: 400;
@@ -664,7 +663,7 @@ body
 
 .type-duration {
     color: #7d8a8d;
-    padding: 2px 6px 0 6px;
+    padding: 2px 4px 0 4px;
     display: flex;
     align-items: left;
 }
@@ -712,12 +711,13 @@ body
 .duration {
     color: #a1b0b0;
     background: #002b39;
-    border-radius: 2px;
+    border-radius: 4px;
+    padding: 2px;
 }
 
 .genre {
     color: #a1b0b0;
-    padding: 0 6px 2px 6px;
+    padding: 0 4px 2px 4px;
 }
 
 

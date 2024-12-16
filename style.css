@@ -246,7 +246,7 @@ body
     padding: 5px 10px;
     transition: 0.3s;
     border-radius: 8px;
-    border: 1px solid #0f3b2d;
+    border: 1px solid #0e2733;
     background: #03191f;
 }
 
@@ -612,9 +612,9 @@ body
     display: grid;
     width: auto;
     min-height: 60vh;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    padding: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
     overflow: scroll;
     scroll-behavior: smooth;
     background: transparent;
@@ -634,9 +634,9 @@ body
     flex-direction: column;
     text-decoration: none;
 }
-.card:hover
+.card:hover img
 {
-    background: #1c2e37;
+    transform: scale(1.15)
 }
 .card img {
     width: 100%;
@@ -748,11 +748,11 @@ body
     font-size: 24px;
     transition: opacity 0.3s, transform 0.3s;
     opacity: 0;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 
 #scrollToTopButton.show {
-    opacity: 0.85;
+    opacity: 1;
     transform: translateX(-50%) translateY(0);
 }
 

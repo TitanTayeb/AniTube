@@ -247,7 +247,7 @@ body
     transition: 0.3s;
     border-radius: 8px;
     border: 1px solid grey;
-    background: #03191f;
+    background: #212121;
 }
 
 .filter .Genre span:hover
@@ -601,7 +601,7 @@ body
 .container-details
 {
     color: white;
-    background: #1c2e37;
+    background: #212121;
     font-family: "Lexend Deca";
     font-weight: 400;
     font-size: 15px;
@@ -710,7 +710,7 @@ body
 
 .duration {
     color: #a1b0b0;
-    background: #002b39;
+    background: #212121;
     border-radius: 4px;
     padding: 2px;
 }

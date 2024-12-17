@@ -719,7 +719,10 @@ body
     padding: 16px;
     gap: 12px;
 }
-
+.container.two-view .card
+{
+    border-radius: 0;
+}
 .container.three-view {
     grid-template-columns: repeat(3, 1fr);
 }
@@ -749,6 +752,7 @@ body
     display: flex;
     flex-direction: column;
     text-decoration: none;
+    border-radius: 2px;
 }
 .card:hover
 {

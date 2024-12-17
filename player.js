@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (anime.japanese) {
             videoPlayer.src = anime.japanese;
             resetButtonStyles();
-            langButtons.japanese.style.background = '#40ffb6';
+            langButtons.japanese.style.background = '#5c5c5c';
             console.log('Switched to Japanese video');
         }
     });
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (anime.english) {
             videoPlayer.src = anime.english;
             resetButtonStyles();
-            langButtons.english.style.background = '#40ffb6';
+            langButtons.english.style.background = '#5c5c5c';
             console.log('Switched to English video');
         }
     });
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (anime.hindi) {
             videoPlayer.src = anime.hindi;
             resetButtonStyles();
-            langButtons.hindi.style.background = '#40ffb6';
+            langButtons.hindi.style.background = '#5c5c5c';
             console.log('Switched to Hindi video');
         }
     });

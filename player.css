@@ -236,7 +236,7 @@ body
     gap: 10px;
     padding: 12px 16px;
     font-family: "Lexend Deca";
-    background: #212121;
+    border-bottom: 1px solid #212121;
 }
 
 .anime-info .anime-details {

@@ -27,7 +27,7 @@ const animes = [
         type: 'Movie',
         japanese: 'https://fast.wistia.net/embed/iframe/2zh0m22eol?seo=true&videoFoam=false',
         english: '',
-        hindi: '',
+        hindi: 'https://fast.wistia.net/embed/iframe/rr18imoqa5?web_component=true&seo=true',
         img: 'https://i.ibb.co/TbN07Ry/your-name.webp',
         duration: '01:46:35',
         download: 'https://s3taku.com/download?id=NzU4ODg=&typesub=Gogoanime-SUB&title=Kimi+no+Na+wa.+Episode+1',

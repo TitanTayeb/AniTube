@@ -616,7 +616,7 @@ body
 
 .container-details
 {
-    border-bottom: 1px solid #5c5c5c;
+    border-bottom: 1px solid #404040;
     margin-top: 8px;
     display: grid;
     grid-auto-flow: column;

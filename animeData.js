@@ -26,7 +26,7 @@ const animes = [
         genre: ['Romance', 'Drama', 'Time Travel', 'Supernatural', 'Emotional'],
         type: 'Movie',
         japanese: 'https://fast.wistia.net/embed/iframe/2zh0m22eol?seo=true&videoFoam=false',
-        english: '',
+        english: 'https://fast.wistia.net/embed/iframe/otcfoxjwje?seo=true&videoFoam=false',
         hindi: 'https://fast.wistia.net/embed/iframe/rr18imoqa5?web_component=true&seo=true',
         img: 'https://i.ibb.co/TbN07Ry/your-name.webp',
         duration: '01:46:35',

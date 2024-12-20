@@ -647,7 +647,7 @@ body
     display: inline-block;
     line-height: 0;
     border-radius: 100px;
-    padding: 8px;
+    padding: 5px;
     background: #212121;
     color: #5c5c5c;
     cursor: pointer;
@@ -655,8 +655,8 @@ body
 }
 
 .container-details .view_type span.active {
-    color: #f0f0f0;
-    background: whitesmoke;
+    color: #0f0f0f;
+    background: #696969;
 }
 
 .container.list-view {

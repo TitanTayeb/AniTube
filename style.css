@@ -298,7 +298,6 @@ body
     justify-content: space-between;
     background-color: #212121;
     color: whitesmoke;
-    padding: 5px 10px;
     border-radius: 2px;
     font-size: 12px;
     border: 1px solid #5c5c5c;
@@ -314,7 +313,7 @@ body
     font-size: 12px;
     font-family: "Lexend Deca";
     cursor: pointer;
-    border-radius: 100px;
+    overflow: hidden;
     transition: background-color 0.3s;
 }
 

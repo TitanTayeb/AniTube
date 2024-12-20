@@ -236,7 +236,7 @@ body
     gap: 10px;
     padding: 12px 16px;
     font-family: "Lexend Deca";
-    border-bottom: 1px solid #5c5c5c;
+    border-bottom: 1px solid #404040;
 }
 
 .anime-info .anime-details {
@@ -249,17 +249,16 @@ body
 .anime-info .anime-details h2 {
     margin: 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.5px;
 }
 
 .anime-info .anime-details p {
     margin: 0;
-    color: #7d8a8d;
-    font-size: 12px;
-    font-weight: 400;
+    color: grey;
+    font-size: 10px;
+    font-weight: 300;
     font-family: "Poppins";
-    letter-spacing: 0.5px;
 }
 
 .anime-info button {
@@ -273,7 +272,7 @@ body
 .anime-info button i
 {
     line-height: 0;
-    font-size: 16px;
+    font-size: 12px;
     padding-right: 5px;
 }
 .anime-info a
@@ -327,8 +326,9 @@ body
     color: white;
     padding: 8px 12px;
     font-weight: 500;
+    font-size: 14px;
     margin: 0;
-    border-top: 1px solid #5c5c5c;
+    border-top: 1px solid #404040;
 }
 
 .container {

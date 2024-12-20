@@ -616,8 +616,8 @@ body
 
 .container-details
 {
-    border-bottom: 1px solid #212121;
-    margin-top: 10px;
+    border-bottom: 1px solid #5c5c5c;
+    margin-top: 8px;
     display: grid;
     grid-auto-flow: column;
 }
@@ -638,28 +638,25 @@ body
     position: absolute;
     margin-top: 8px;
     right: 12px;
+    gap: 8px;
     text-align: center;
-    background: #0f0f0f;
-    border: 1px solid #5c5c5c;
-    border-radius: 8px;
-    overflow: hidden;
 }
 
 .container-details .view_type span {
-    font-size: 16px;
+    font-size: 12px;
     display: inline-block;
     line-height: 0;
-    border-radius: ;
-    padding: 5px;
-    background: transparent;
+    border-radius: 100px;
+    padding: 8px;
+    background: #212121;
     color: #5c5c5c;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .container-details .view_type span.active {
-    color: #212121;
-    background: #5c5c5c;
+    color: #f0f0f0;
+    background: whitesmoke;
 }
 
 .container.list-view {

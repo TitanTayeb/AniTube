@@ -638,7 +638,7 @@ body
     position: absolute;
     margin-top: 8px;
     right: 12px;
-    gap: 8px;
+    gap: 5px;
     text-align: center;
 }
 
@@ -647,7 +647,7 @@ body
     display: inline-block;
     line-height: 0;
     border-radius: 100px;
-    padding: 5px;
+    padding: 8px;
     background: #212121;
     color: #5c5c5c;
     cursor: pointer;

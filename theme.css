@@ -1,0 +1,100 @@
+body.light
+{
+    background: #DEE2E6;
+}
+body.light {
+    .body
+    {
+        background: #F8F9FA;
+    }
+    .head
+    {
+        background: rgba(248, 249, 250, 0.8);
+        color: #212529;
+    }
+    .menu
+    {
+        background: #DEE2E6;
+    }
+    .filter
+    {
+        background: #F8F9FA;
+    }
+
+    .theme-bar,
+    .view_type,
+    .carousel-prev,
+    .carousel-next,
+    .menu .type button.active,
+    .selected-genre,
+    .selected-search
+    {
+        background: #6C757D;
+    }
+    .extra-header,
+    .extra-results
+    {
+        background: #E9ECEF;
+        color: black;
+    }
+    .extra-results .result:hover
+    {
+        background: #495057;
+    }
+    .filter .Genre span
+    {
+        background: #E9ECEF;
+    }
+    .card:hover
+    {
+        background: #DEE2E6;
+    }
+    .search-for
+    {
+        background: #E9ECEF;
+        color: #212529;
+    }
+    .search i,
+    .menu-button i,
+    .engine input,
+    .engine input::placeholder,
+    .card h5,
+    .container-details h5,
+    .menu .type button,
+    .filter .Genre span
+    {
+        color: #212529;
+    }
+    .menu .type button.active
+    {
+        color: white;
+    }
+    .container-details
+    {
+    border-bottom: 1px solid #CED4DA;
+    }
+    .card img
+    {
+    mask-image: none;
+    -webkit-mask-image: none;
+    }
+    .card .type,
+    .card .duration
+    {
+        background: #DEE2E6;
+        color: #343A40;
+    }
+    .card p
+    {
+        color: #495057;
+    }
+    .content
+    {
+        border-right: 1px solid #CED4DA;
+    }
+    footer
+    {
+        background: #ADB5BD;
+        color: black;
+    }
+}

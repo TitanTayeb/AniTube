@@ -635,7 +635,7 @@ input[type="search"]::-webkit-search-decoration {
     overflow: hidden;
     object-fit: cover;
     background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     padding: 20px;
     box-sizing: border-box;
     position: relative;

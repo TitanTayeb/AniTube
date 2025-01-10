@@ -447,6 +447,7 @@ body
     height: 100px;
     position: relative;
     opacity: 0.3;
+    backdrop-filter: blur(10px);
 }
 .about .info
 {

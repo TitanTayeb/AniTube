@@ -509,14 +509,14 @@ body
 }
 .rating-box .rating
 {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .about .info .meta .wiki
 {
     max-width: calc(100% - 20px);
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 11px;
     font-family: "Poppins";
     white-space: nowrap; 
     overflow: hidden;
@@ -526,7 +526,7 @@ body
 {
     text-decoration: none;
     color: skyblue;
-    font-size: 8px;
+    font-size: 10px;
 }
 .about .info .meta .wiki b:hover
 {

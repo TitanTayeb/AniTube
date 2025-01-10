@@ -487,8 +487,8 @@ body
 }
 .about .info .meta .rating-box
 {
-    width: 80px;
-    height: 20px;
+    width: 60px;
+    height: 18px;
     border-radius: 4px;
     border: 1px solid #e0af25;
     font-size: 12px;
@@ -504,7 +504,7 @@ body
 }
 .rating-box img
 {
-    height: 20px;
+    height: 18px;
     width: auto;
 }
 .rating-box .rating
@@ -516,7 +516,7 @@ body
     max-width: calc(100% - 20px);
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Poppins";
     white-space: nowrap; 
     overflow: hidden;
@@ -526,7 +526,7 @@ body
 {
     text-decoration: none;
     color: skyblue;
-    font-size: 11px;
+    font-size: 8px;
 }
 .about .info .meta .wiki b:hover
 {

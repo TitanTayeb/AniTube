@@ -146,7 +146,7 @@ input[type="search"]::-webkit-search-decoration {
 
 .menu.on ~ .body
 {
-    filter: blur(20px);
+    filter: blur(10px);
     pointer-events: none;
 }
 .menu.on

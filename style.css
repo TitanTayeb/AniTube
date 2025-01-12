@@ -3,7 +3,7 @@
    -webkit-tap-highlight-color: transparent;
    box-sizing: border-box;
 }
-::-webkit-scrollbar {
+*::-webkit-scrollbar {
     display: none;
 }
 body
@@ -1097,7 +1097,7 @@ footer .info p
     padding: 0;
     margin: 0;
 }
-.installer
+.share
 {
     background: #212529;
     display: grid;
@@ -1108,13 +1108,13 @@ footer .info p
     border-radius: 12px;
     justify-content: space-between;
 }
-.installer span
+.share span
 {
     color: white;
     font-family: "Lexend Deca";
     font-size: 14px;
 }
-.installer .install_button
+.share .button
 {
     display: grid;
     grid-auto-flow: column;

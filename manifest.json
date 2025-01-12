@@ -3,10 +3,11 @@
   "short_name": "AniTube",
   "description": "Watch and Download your favourite anime movies for free! No ads",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0f0f0f",
   "theme_color": "#0f0f0f",
-  "orientation": "portrait",
+  "orientation": "any",
   "icons": [
     {
       "src": "https://i.ibb.co.com/tMkJDc1/icon-192x192.png",

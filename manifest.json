@@ -1,13 +1,13 @@
 {
   "name": "AniTube: anime movies",
   "short_name": "AniTube",
-  "description": "Watch and Download your favourite anime movies for free! No ads",
+  "description": "Watch and Download your favourite anime movies in multi-languages for FREE! No Ads. Our website has a vast collection of anime movies Including all Ghibli and Comix-Wave films. You can watch your favorite anime movies in three different languages: English, Japanese, Hindi. Or download in high quality.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#0f0f0f",
   "theme_color": "#0f0f0f",
-  "orientation": "any",
+  "orientation": "any"
   "icons": [
     {
       "src": "https://i.ibb.co.com/tMkJDc1/icon-192x192.png",

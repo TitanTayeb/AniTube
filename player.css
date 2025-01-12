@@ -25,8 +25,7 @@ body
     height: 55px;
     justify-content: space-between;
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
+    position: static;
     top: 0;
     padding: 0px 10px;
     background: rgba(15, 15, 15, 0.8);

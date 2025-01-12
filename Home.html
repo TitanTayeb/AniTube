@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="AniTube - Watch Anime Movies Online">
+    <meta property="og:description" content="Explore our vast collection of anime movies!">
+    <meta property="og:image" content="https://i.ibb.co/42Ljx0L/icon.png">
+    <meta property="og:url" content="anitube1.netlify.app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AniTube</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="https://i.ibb.co/42Ljx0L/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <a href="Home.html">
+            <img src="https://i.ibb.co.com/Rpj050r/logo.png" alt="AnimeTube">
+        </a>
+        <div class="engine">
+            <input type="search" id="search-input" placeholder="Search anime…">
+            <button class="search">
+                <i class="fi fi-bs-search"></i>
+            </button>
+            <button class="menu-button">
+                <i class="fi fi-bs-menu-burger"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="menu">
+        <div class="type">
+          <button id="series-button" class="active">SERIES</button>
+          <button id="movies-button">MOVIES</button>
+        </div>
+        <div class="view_type">
+        <span class="view_list" data-view="list">
+            <img src="https://i.ibb.co.com/crn5JRd/list-view.jpg" alt="">
+        </span>
+        <span class="view_two" data-view="two">
+            <img src="https://i.ibb.co.com/PDS0zyt/two-view.jpg" alt="">
+        </span>
+        <span class="view_three active" data-view="three">
+            <img src="https://i.ibb.co.com/q9CWgrb/three-view.jpg" alt="">
+        </span>
+        </div>
+        <div class="theme-bar">
+            <p>Theme</p>
+            <span class="theme">
+                <span class="knob"></span>
+            </span>
+        </div>
+        <div class="installer">
+            <span>Install our webapp</span>
+            <button class="install_button" id="install-btn">
+                <i class="fi fi-sr-smartphone"></i>
+                <p>Install</p>
+            </button>
+        </div>
+        <div class="close-menu">
+            <i class="fi fi-ss-cross-circle"></i>
+            <p>Close Menu</p>
+        </div>
+    </div>
+    
+    
+    <div class="search-results" id="search-results">
+        <button class="cancel-search">Cancel</button>
+    </div>
+   </div>
+    
+      <div class="body">
+
+        <div class="filter">
+          <div class="extra-header">
+              <input class="extra-search" type="search" placeholder="Search Anime…">
+          </div>
+          <div class="extra-results" id="extra-results">
+    </div>
+            
+            <div class="Genre">
+                <span data-genre="All">All</span>
+                <span data-genre="Action">Action</span>
+                <span data-genre="Adventure">Adventure</span>
+                <span data-genre="Comedy">Comedy</span>
+<span data-genre="Drama">Drama</span>
+<span data-genre="Emotional">Emotional</span>
+<span data-genre="Fairy Tale">Fairy Tale</span>
+<span data-genre="Family">Family</span>
+<span data-genre="Fantasy">Fantasy</span>
+<span data-genre="Historical">Historical</span>
+<span data-genre="Horror">Horror</span>
+<span data-genre="Kids">Kids</span>
+<span data-genre="Magic">Magic</span>
+<span data-genre="Music">Music</span>
+<span data-genre="Mystery">Mystery</span>
+<span data-genre="Nature">Nature</span>
+<span data-genre="Psychological">Psychology</span>
+<span data-genre="Romance">Romance</span>
+<span data-genre="Rural">Rural</span>
+<span data-genre="Samurai">Samurai</span>
+<span data-genre="School">School</span>
+<span data-genre="Sci-fi">Sci-fi</span>
+<span data-genre="Slice Of Life">Slice Of Life</span>
+<span data-genre="Space">Space</span>
+<span data-genre="Supernatural">Supernatural</span>
+<span data-genre="Time Travel">Time Travel</span>
+<span data-genre="War">War</span>
+            </div>
+      
+        </div>
+        
+        
+    <div class="content">
+        
+        
+        
+         <div class="carousel">
+          <div class="carousel-container">
+           <div class="carousel-card">
+             <img class="slider-img" src="" alt="">
+             <div class="slider">
+              <div class="slider-details">
+                <h3 class="slider-title"></h3>
+                <p class="slider-type"></p>
+              </div>
+              <button class="watch-now"><a href=""></a></button>
+            </div>   
+           </div>
+          </div>
+         </div>
+      
+  
+  
+ 
+          <div class="container-details"> 
+    <h5>Trending Anime</h5>
+     <div class="button-container">
+  <button class="carousel-prev"><i class="fi fi-br-caret-left"></i></button></button>
+  <button class="carousel-next"><i class="fi fi-br-caret-right"></i></button></button>
+  </div>
+</div>
+  
+  
+          <div class="selected-genre" style="display: none;">
+                <span id="selected-genre-text"></span>
+                <button id="clear-genre"><i class="fi fi-sr-cross-circle"></i></button>
+            </div>
+            <div class="selected-search" style="display: none;">
+                <span id="selected-search-text"></span>
+                <button id="clear-search"><i class="fi fi-sr-cross-circle"></i></button>
+            </div>
+           
+            
+            <div class="container" id="anime-container"></div>
+         
+         
+         <footer>
+      <div class="info">
+       <h4>
+       Thanks For Using Our Website
+       </h4>
+       <p>
+       Made By <b>Sakib</b> 
+       </p>
+      </div>
+    </footer>
+         
+        </div> <!-- content -->
+    </div> <!-- body -->
+    
+
+    
+    <script src="script.js"></script>
+    <script src="animeData.js"></script>
+</body>
+</html>

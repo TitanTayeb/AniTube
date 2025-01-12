@@ -655,6 +655,36 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+let deferredPrompt;
+const installButton = document.getElementById('install-btn');
+
+// Listen for the beforeinstallprompt event
+window.addEventListener('beforeinstallprompt', (e) => {
+    // Prevent the default mini-infobar or dialog
+    e.preventDefault();
+    deferredPrompt = e;
+    installButton.style.display = 'block'; // Show the install button
+});
+
+// Add event listener to the install button
+installButton.addEventListener('click', () => {
+    if (deferredPrompt) {
+        // Show the prompt
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+                console.log('User added to home screen');
+            } else {
+                console.log('User dismissed the add to home screen prompt');
+            }
+            deferredPrompt = null; // Reset the prompt
+        });
+    }
+});
+
+
+
+
 // Select the theme toggle element
 const themeSwitch = document.querySelector('.theme');
 

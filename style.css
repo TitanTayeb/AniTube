@@ -1114,7 +1114,7 @@ footer .info p
     font-family: "Lexend Deca";
     font-size: 14px;
 }
-.share .button
+.share button
 {
     display: grid;
     grid-auto-flow: column;

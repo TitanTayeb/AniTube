@@ -655,34 +655,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-let deferredPrompt;
-const installButton = document.getElementById('install-btn');
+const shareButton = document.getElementById('shareButton');
 
-// Listen for the beforeinstallprompt event
-window.addEventListener('beforeinstallprompt', (e) => {
-    // Prevent the default mini-infobar or dialog
-    e.preventDefault();
-    deferredPrompt = e;
-    installButton.style.display = 'block'; // Show the install button
-});
-
-// Add event listener to the install button
-installButton.addEventListener('click', () => {
-    if (deferredPrompt) {
-        // Show the prompt
-        deferredPrompt.prompt();
-        deferredPrompt.userChoice.then((choiceResult) => {
-            if (choiceResult.outcome === 'accepted') {
-                console.log('User added to home screen');
+        shareButton.addEventListener('click', () => {
+            if (navigator.share) {
+                navigator.share({
+                    title: "AniTube",
+                    text: "Watch Anime Movies On AniTube",
+                    url: window.location.href
+                })
+                .then(() => console.log('Share was successful.'))
+                .catch((error) => console.log('Error sharing:', error));
             } else {
-                console.log('User dismissed the add to home screen prompt');
+                alert('Sharing is not supported on this device.');
             }
-            deferredPrompt = null; // Reset the prompt
         });
-    }
-});
-
-
 
 
 // Select the theme toggle element

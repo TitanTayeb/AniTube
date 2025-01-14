@@ -259,7 +259,7 @@ function displayAnimes(filteredAnimes) {
             container.appendChild(card);
         });
     } else {
-        container.innerHTML = '<p class="no-results">No results found</p>';
+        container.innerHTML = '<div class="no-results"><img src="https://i.ibb.co.com/Wg29ny9/kitten.png" alt=""><p>No results found</p></div>';
     }
 }
     
@@ -386,6 +386,20 @@ function highlightText(text, searchWords) {
 function displaySearchResults(searchText, matchingAnimes) {
     searchResults.innerHTML = '';
 
+    // Create and append loading bar
+    const loadingBar = document.createElement('div');
+    loadingBar.id = "animation-container";
+    loadingBar.innerHTML = `<div id="blue-bar"></div>`;
+    searchResults.appendChild(loadingBar); // Add loadingBar to the DOM
+    
+    const blueBar = document.getElementById("blue-bar"); // Now it's accessible
+    
+    // Force animation to restart
+    blueBar.style.animation = "none"; // Reset the animation
+    blueBar.offsetWidth; // Trigger a reflow to apply the animation again
+    blueBar.style.animation = "loadBar 0.4s linear forwards"; // Reapply the animation
+
+    
     const searchLink = document.createElement('a');
     searchLink.href = '#';
     searchLink.classList.add('search-for');

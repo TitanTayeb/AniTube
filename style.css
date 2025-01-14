@@ -1031,15 +1031,7 @@ input[type="search"]::-webkit-search-decoration {
     box-sizing: border-box;
     gap: 0;
 }
-.container .no-results
-{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    mix-blend-mode: difference;
-    color: white;
-}
+
 
 
 #scrollToTopButton {

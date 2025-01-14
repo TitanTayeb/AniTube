@@ -1034,8 +1034,9 @@ input[type="search"]::-webkit-search-decoration {
 .container .no-results
 {
     position: absolute;
+    transform: translateX(-50%) translateY(0);
     left: 50%;
-    top: 50%;
+    top: 50%
     color: blue;
 }
 

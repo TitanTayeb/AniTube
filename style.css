@@ -1143,7 +1143,7 @@ footer .info p
 
     @keyframes loadBar {
       0% {
-        left: -20px;
+        left: -10px;
       }
       50%
        {

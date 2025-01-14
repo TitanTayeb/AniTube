@@ -1123,7 +1123,37 @@ footer .info p
     color: white;
     font-family: "Poppins";
 }
+#animation-container {
+      position: relative;
+      width: 100%;
+      height: 2px;
+      background-color: transparent;
+      overflow: hidden;
+    }
 
+    #blue-bar {
+      position: absolute;
+      top: 0;
+      left: -10px; /* Off-screen to the left */
+      width: 10px;
+      height: 2px;
+      background-color: blue;
+      animation: none;
+    }
+
+    @keyframes loadBar {
+      0% {
+        left: -20px;
+      }
+      50%
+       {
+        width: 100px;
+       }
+      100% {
+        left: 100%;
+        width: 5px
+      }
+    }
 
 
 

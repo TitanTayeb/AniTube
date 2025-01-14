@@ -42,11 +42,16 @@ body
     justify-content: center;
     display: flex;
 }
-.head a img
+.head a i
 {
-    height: 34px;
-    width: auto;
-    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+.head a i:active
+{
+    color: #40ffb6;
 }
 .head.on a{
     display: none;

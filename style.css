@@ -1153,7 +1153,7 @@ footer .info p
       left: -10px; /* Off-screen to the left */
       width: 10px;
       height: 2px;
-      background-color: blue;
+      background-color: #1cedb9;
       animation: none;
     }
 

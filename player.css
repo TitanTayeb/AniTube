@@ -317,11 +317,11 @@ body
 }
 .audio-tracks p
 {
-    color: gray;
+    color: grey;
     margin-top: 12px;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14px;
+    position: relative;
 }
 .audio-tracks button
 {

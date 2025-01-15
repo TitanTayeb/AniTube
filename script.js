@@ -712,3 +712,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedTheme = localStorage.getItem('theme');
     applyTheme(savedTheme === 'light');
 });
+
+
+document.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+  });

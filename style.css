@@ -45,6 +45,11 @@ body
     height: 34px;
     width: auto;
     margin-left: 5px;
+   -webkit-touch-callout: none; /* Disables the long-press action on iOS */
+  -webkit-user-select: none;  /* Prevents selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .head.on a{
     display: none;
@@ -248,6 +253,11 @@ input[type="search"]::-webkit-search-decoration {
     height: auto;
     margin-right: 10px;
     border-radius: 2px;
+    -webkit-touch-callout: none; /* Disables the long-press action on iOS */
+  -webkit-user-select: none;  /* Prevents selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .search-results .result h5{
     margin: 0;
@@ -592,6 +602,11 @@ input[type="search"]::-webkit-search-decoration {
     width: 50px;
     margin-right: 10px;
     border-radius: 2px;
+    -webkit-touch-callout: none; /* Disables the long-press action on iOS */
+  -webkit-user-select: none;  /* Prevents selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .extra-results .result-content {
@@ -685,6 +700,11 @@ input[type="search"]::-webkit-search-decoration {
     width: 105px;
     height: auto;
     object-fit: cover;
+    -webkit-touch-callout: none; /* Disables the long-press action on iOS */
+  -webkit-user-select: none;  /* Prevents selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .carousel-card .slider {
@@ -839,6 +859,11 @@ input[type="search"]::-webkit-search-decoration {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    -webkit-touch-callout: none; /* Disables the long-press action on iOS */
+  -webkit-user-select: none;  /* Prevents selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .view_type span.active img
@@ -945,6 +970,11 @@ input[type="search"]::-webkit-search-decoration {
     height: auto;
     display: block;
     transition: 0.4s;
+    -webkit-touch-callout: none; /* Disables the long-press action on iOS */
+  -webkit-user-select: none;  /* Prevents selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
     /* mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%); */
 }
@@ -1046,7 +1076,11 @@ input[type="search"]::-webkit-search-decoration {
 {
     width: 130px;
     height: auto;
-    
+    -webkit-touch-callout: none; /* Disables the long-press action on iOS */
+  -webkit-user-select: none;  /* Prevents selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 

@@ -363,7 +363,6 @@ body
 .container {
     display: grid;
     width: auto;
-    min-height: 60vh;
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
     padding: 10px;

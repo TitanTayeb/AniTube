@@ -404,3 +404,8 @@ const shareButton = document.getElementById('shareButton');
                 alert('Sharing is not supported on this device.');
             }
         });
+
+
+document.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+  });

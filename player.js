@@ -434,6 +434,24 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+window.addEventListener('load', adjustSpacing);
+window.addEventListener('resize', adjustSpacing);
+
+function adjustSpacing() {
+    const videoPlayer = document.querySelector('.video-player');
+    const animeInfo = document.querySelector('.anime-info');
+    const audioTrack = document.querySelector('.audio-tracks');
+
+    // Get the actual height of the video player (the iframe's height based on aspect ratio)
+    const videoHeight = videoPlayer.getBoundingClientRect().height;
+
+    // Position the anime info directly below the video player
+    animeInfo.style.top = (55 + videoHeight) + 'px';  // Add 55px for the fixed header + video height
+
+    // Optional: Adjust the audio track margin if needed
+    audioTrack.style.marginTop = (55 + videoHeight + animeInfo.offsetHeight) + 'px';
+}
+
 
 const shareButton = document.getElementById('shareButton');
 

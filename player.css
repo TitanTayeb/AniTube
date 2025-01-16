@@ -220,7 +220,6 @@ body
     text-align: center;
     background: black;
     position: fixed;
-    top: 55px; /* Adjust based on the header size */
     z-index: 100;
 }
 
@@ -246,7 +245,6 @@ body
     backdrop-filter: blur(10px);
     position: fixed;
     z-index: 99;
-    top: calc(55px + 56.25%); /* Position below the video player */
     width: 100%;
 }
 
@@ -314,7 +312,6 @@ body
     display: flex;
     flex-direction: column;
     margin: 0;
-    margin-top: calc(56.25% + 60px); /* Adjust this if you want to add spacing for audio tracks */
 }
 .audio-tracks h6
 {

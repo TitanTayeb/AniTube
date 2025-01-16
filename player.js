@@ -446,6 +446,7 @@ window.addEventListener('load', adjustSpacing);
       const headerHeight = videoPlayer.offsetHeight;
       const infoHeight = animeInfo.offsetHeight;
       // Apply the height as margin-top to the main content
+      animeInfo.style.marginTop = headerHeight + '55px';
       audioTrack.style.marginTop = headerHeight + infoHeight + 'px';
     }
 

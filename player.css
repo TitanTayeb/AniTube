@@ -219,6 +219,7 @@ body
     z-index: 100;
     background: transparent;
     height: auto;
+    background: green;
 }
 .video-player {
     width: 100%;

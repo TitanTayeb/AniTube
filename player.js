@@ -449,7 +449,7 @@ function adjustSpacing() {
     animeInfo.style.top = (55 + videoHeight) + 'px';  // Add 55px for the fixed header + video height
 
     // Optional: Adjust the audio track margin if needed
-    audioTrack.style.marginTop = (55 + videoHeight + animeInfo.offsetHeight) + 'px';
+    audioTrack.style.marginTop = (videoHeight + animeInfo.offsetHeight) + 'px';
 }
 
 

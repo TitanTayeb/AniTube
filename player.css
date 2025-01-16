@@ -220,6 +220,9 @@ body
     background: transparent;
     height: auto;
     background: green;
+    display: block;
+    overflow-y: ;
+    border-right: none;
 }
 .video-player {
     width: 100%;

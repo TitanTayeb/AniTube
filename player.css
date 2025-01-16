@@ -212,17 +212,19 @@ body
 .search-results .result-content .genre .highlight {
     color: ; /* Mint color for text */
 }
-
-.video-player {
+.content
+{
     position: fixed;
     top: 55px;
+    z-index: 100;
+}
+.video-player {
     width: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
     text-align: center;
     background: black;
-    z-index: 100;
 }
 
 .video-player iframe {
@@ -243,8 +245,6 @@ body
     border-bottom: 1px solid #404040;
     background: rgba(15, 15, 15, 0.8);
     backdrop-filter: blur(10px);
-    position: fixed;
-    z-index: 99;
 }
 
 .anime-info .anime-details {

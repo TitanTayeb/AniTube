@@ -221,6 +221,7 @@ body
     background: black;
     position: fixed;
     z-index: 100;
+    top: 55px;
 }
 
 .video-player iframe {

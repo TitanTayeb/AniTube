@@ -218,6 +218,7 @@ body
     top: 55px;
     z-index: 100;
     background: transparent;
+    height: auto;
 }
 .video-player {
     width: 100%;

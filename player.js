@@ -438,15 +438,14 @@ window.addEventListener('load', adjustSpacing);
     window.addEventListener('resize', adjustSpacing);
 
     function adjustSpacing() {
-      const videoPlayer = document.querySelector('.video-player');
-      const animeInfo = document.querySelector('.anime-info');
+      const videoContent = document.querySelector('.content');
       const audioTrack = document.querySelector('.audio-tracks');
       
       // Get the height of the fixed header
-      const headerHeight = videoPlayer.offsetHeight;
-      const infoHeight = animeInfo.offsetHeight;
+      const contentHeight = videoContent.offsetHeight;
+      
       // Apply the height as margin-top to the main content
-      audioTrack.style.marginTop = headerHeight + infoHeight + 'px';
+      audioTrack.style.marginTop = contentHeight + '55px';
     }
 
 

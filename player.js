@@ -434,7 +434,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+window.addEventListener('load', adjustSpacing);
+    window.addEventListener('resize', adjustSpacing);
 
+    function adjustSpacing() {
+      const videoPlayer = document.querySelector('.video-player');
+      const animeInfo = document.querySelector('.anime-info');
+      
+      // Get the height of the fixed header
+      const headerHeight = videoPlayer.offsetHeight;
+      
+      // Apply the height as margin-top to the main content
+      animeInfo.style.marginTop = headerHeight + 'px';
+    }
 
 
 

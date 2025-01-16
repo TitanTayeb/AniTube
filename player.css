@@ -247,7 +247,6 @@ body
     position: fixed;
     z-index: 95;
     width: 100%;
-    box-shadow: 0 0 20px 10px #0f0f0f;
 }
 
 .anime-info .anime-details {

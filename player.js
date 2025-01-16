@@ -440,7 +440,7 @@ window.addEventListener('load', adjustSpacing);
     function adjustSpacing() {
       const videoPlayer = document.querySelector('.video-player');
       const animeInfo = document.querySelector('.anime-info');
-      const audioTrack = document.querySelector('.audio-track');
+      const audioTrack = document.querySelector('.audio-tracks');
       
       // Get the height of the fixed header
       const headerHeight = videoPlayer.offsetHeight;

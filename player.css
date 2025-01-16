@@ -214,7 +214,9 @@ body
 }
 
 .video-player {
-    position: relative;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
     width: 100%;
     overflow: hidden;
     margin: 0;

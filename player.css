@@ -214,15 +214,15 @@ body
 }
 
 .video-player {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+    position: fixed;
+    top: 55.5px;
     width: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
     text-align: center;
     background: black;
+    z-index: 100;
 }
 
 .video-player iframe {

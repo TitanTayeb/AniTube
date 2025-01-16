@@ -245,6 +245,7 @@ body
     backdrop-filter: blur(10px);
     position: fixed;
     z-index: 100;
+    top: 0;
 }
 
 .anime-info .anime-details {

@@ -447,7 +447,7 @@ function adjustSpacing() {
     const infoHeight = animeInfo.getBoundingClientRect().height;
 
     // Apply calculated heights to margin-top for spacing adjustments
-    animeInfo.style.marginTop = videoHeight + 'px'; // Proper spacing between video and info
+    // animeInfo.style.marginTop = videoHeight + 'px';
     audioTrack.style.marginTop = (videoHeight + infoHeight) + 'px'; // Adjust margin based on both heights
 }
 

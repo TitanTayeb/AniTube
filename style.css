@@ -194,7 +194,7 @@ input[type="search"]::-webkit-search-decoration {
     top: 50px;
     width: 100%;
     height: calc(100% - 50px);
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(15, 15, 15, 0.8);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     z-index: 999;

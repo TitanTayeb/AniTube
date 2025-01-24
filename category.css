@@ -1,0 +1,265 @@
+*
+{
+   -webkit-tap-highlight-color: transparent;
+   box-sizing: border-box;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-family: "Poppins", "Inter", "Marcellus", "DM Serif Display", "Lexend", "Cormorant Garamond", "Dancing Script", serif;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    background: #212529;
+    height: 50px;
+    top: 0;
+    padding: 0 10px;
+    z-index: 1000;
+}
+.head a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.head a img
+{
+    height: 30px;
+    width: auto;
+    margin-left: 5px;
+}
+.head.active a
+{
+    display: none;
+}
+.head.active .search-bar input
+{
+    display: block;
+}
+.search-bar
+{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-bar input{
+    width: 100%;
+    outline: none;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    display: none;
+    font-family: "Marcellus";
+    padding-left: 5px;    
+}
+.search-bar input::placeholder
+{
+    color: whitesmoke;
+    font-weight: 300;
+}
+.search-btn, .menu-btn
+{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-right: 5px;
+    padding: 5px 5px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: 0.2s;
+}
+
+.menu-btn i, .search-btn i
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+
+.menu
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 50px;
+    right: -100vw;
+    z-index: 999;
+    background: #212529;
+    transition: 0.3s ease-in-out;
+}
+.menu.on
+{
+    right: 0;
+}
+.head-navigate
+{
+    gap: 2px;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: center;
+    display: none;
+    margin-left: 12px;
+}
+.head-navigate button:hover
+{
+    color: #25df96;
+}
+.navigate {
+    margin: 12px;
+    gap: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigate button, .head-navigate button {
+    background: #212529;
+    border: none;
+    padding: 8px 10px;
+    transition: 0.1s;
+}
+.navigate button:hover {
+    background: #313539;
+}
+.navigate #category {
+    background: #313539;
+    border-bottom: 2px solid #25df96;
+}
+.navigate button a, .head-navigate button a {
+    text-decoration: none;
+    color: white;
+}
+.head-navigate #category a {
+    color: #25df96;
+}
+.body
+{
+    padding: 0 12px;
+    gap: 12px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.studio h4, .writer h4
+{
+    font-family: "Inter";
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    background: #212529;
+}
+.studio, .writer
+{
+    margin-bottom: 12px;
+}
+.studios, .writers
+{
+    display: grid;
+    padding: 2px;
+    gap: 2px;
+    background: #212529;
+}
+.collection-btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    text-decoration: none;
+    position: relative;
+}
+.collection-btn h4
+{
+    color: white;
+    font-family: "Marcellus";
+    background: transparent;
+    width: auto;
+    text-align: left;
+}
+.collection-btn .logo
+{
+    width: 40px;
+    height: 40px;
+}
+.collection-btn i
+{
+    position: absolute;
+    right: 18px;
+    top: calc(50% - 10px);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 0;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+.collection-btn:hover i
+{
+    animation: goBtn 1s infinite;
+}
+@keyframes goBtn {
+    0% {
+        right: 12px;
+    }
+    50% {
+        right: 24px;
+    }
+    100% {
+        right: 12px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .head.active a, .head-navigate
+  {
+      display: flex;
+  }
+  .head-navigate
+  {
+      display: flex;
+  }
+  .search-bar input
+  {
+      width: 200px;
+  }
+  .navigate
+  {
+      display: none;
+  }
+  .body
+  {
+      padding: 12px;
+  }
+}

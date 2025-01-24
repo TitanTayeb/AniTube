@@ -1,0 +1,16 @@
+[
+    {
+        "type": "studio",
+        "name": "Studio Ghibli",
+        "logo": "https:\/\/i.ibb.co.com\/2y8LPLy\/ghibli-logo.png",
+        "banner": "https:\/\/i.ibb.co.com\/WHdmxmg\/ghibli-banner.jpg",
+        "bg_video": "https:\/\/fast.wistia.net\/embed\/iframe\/o1qns2bivr?web_component=true&seo=true"
+    },
+    {
+        "type": "studio",
+        "name": "Comix Wave",
+        "logo": "https:\/\/i.ibb.co.com\/jRx1R7P\/comix-wave-logo.jpg",
+        "banner": "https:\/\/i.ibb.co.com\/Hdy2Kkq\/comix-wave-banner.jpg",
+        "bg_video": "https:\/\/fast.wistia.net\/embed\/iframe\/0dqhg3802l?web_component=true&seo=true"
+    }
+]

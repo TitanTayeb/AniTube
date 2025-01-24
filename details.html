@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+</head>
+<body>
+    <div class="head">
+        <a href="Home.html">
+            <img src="https://i.ibb.co.com/Rpj050r/logo.png" alt="AnimeTube">
+        </a>
+        <div class="head-navigate">
+        <button id="home"><a href="Home.html">Home</a></button>
+        <button id="library"><a href="library.html">Library</a></button>
+        <button id="category"><a href="category.html">Category</a></button>
+        <button id="about"><a href="about.html">About</a></button>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search anime…">
+            <button class="search-btn">
+                <i class="fi fi-bs-search"></i>
+            </button>
+            <button class="menu-btn">
+                <i class="fi fi-bs-menu-burger"></i>
+            </button>
+        </div>
+    </div>
+    <div id="searchResults" class="search-results">
+        <div class="search-genre"></div>
+        <div class="results"></div>
+    </div>
+    <div class="menu">
+        <button class="close-menu">close menu</button>
+    </div>
+    <div class="body">
+        <div class="header">
+            <div class="banner"><img loading="lazy" class="banner-img" src="" alt=""></div>
+            <div class="meta">
+                <img class="anime-album" loading="lazy" src="" alt="">
+                <div class="about">
+                    <h2 class="about-name"></h2>
+                    <div class="about-buttons">
+                    <button class="watch-now">
+                        <i class="fi fi-ss-play-circle"></i><p>Watch Now</p>
+                    </button>
+                    <button class="save">
+                        <i class="fi fi-ss-bookmark"></i>
+                    </button>
+                    <button class="share">
+                        <i class="fi fi-ss-share"></i>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <p>Brief Plot</p>
+            <span id="plot">Loading plot...</span>
+            <button id="view-more" style="display: none;">View More</button>
+        </div>
+        <div class="details">
+            <span class="name-en">English name :</span>
+            <span class="name-jp">Japanese name :</span>
+            <span class="duration">Duration :</span>
+            <span class="genre">Genres :</span>
+            <span class="mal-rating">MAL score :</span>
+            <span class="imdb-rating">IMDb rating :</span>
+            <span class="studio">Studio :</span>
+            <span class="writer">Writer :</span>
+            <span class="status">Status :</span>
+            <span class="release">Release year :</span>
+        </div>
+        <div class="media">
+            <h4>Screenshots from the movie</h4>
+            <div class="screenshots"></div>
+            <div class="trailer">
+                <h4 class="trailer-header">Watch The Trailer</h4>
+                <a id="trailer" href="">YouTube <i class="fi fi-bs-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="download">
+            <h4>Download This Anime</h4>
+            <a class="download-btn" href="" ><button><i class="fi fi-ss-down-to-line"></i><p>Download</p></button></a>
+        </div>
+        <div class="container">
+            
+        </div>
+    </div>
+    <footer></footer>
+    <script src="details.js"></script>
+    <script src="react.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

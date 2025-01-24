@@ -1,0 +1,130 @@
+{
+    "anime_data": [
+        {
+            "name": {
+                "english": "Your Name",
+                "japanese": "君の名は (Kimi No Na Wa)"
+            },
+            "duration": "01:47:00",
+            "rating": {
+                "mal": "8.9",
+                "imdb": "8.4"
+            },
+            "album": "https:\/\/i.ibb.co.com\/xDwY2BC\/your-name-album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/23hZR5d\/your-name-banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/rMcD5LG\/your-name-bg.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/jVLtjxZ\/your-name-ss1.jpg",
+                "https:\/\/i.ibb.co.com\/FJyv7Zs\/your-name-ss2.jpg",
+                "https:\/\/i.ibb.co.com\/R4zx7sR\/your-name-ss3.jpg",
+                "https:\/\/i.ibb.co.com\/JcwNVv1\/your-name-ss4.jpg",
+                "https:\/\/i.ibb.co.com\/RB08dWR\/your-name-ss5.jpg",
+                "https:\/\/i.ibb.co.com\/pxW2twT\/your-name-ss6.jpg",
+                "https:\/\/i.ibb.co.com\/MGYcF8Q\/your-name-ss7.jpg",
+                "https:\/\/i.ibb.co.com\/b3wnf03\/your-name-ss8.jpg"
+            ],
+            "trailer": "https:\/\/www.youtube.com\/embed\/3KR8_igDs1Y?si=LyWA14VaqTZAkKGL",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Your_Name",
+            "download": "https:\/\/s3taku.com\/download?id=NzU4ODg=&amp;amp;amp;typesub=Gogoanime-SUB&amp;amp;amp;title=Kimi+no+Na+wa.+Episode+1",
+            "video": {
+                "japanese": "https:\/\/fast.wistia.net\/embed\/iframe\/2zh0m22eol?seo=true&amp;amp;amp;videoFoam=false",
+                "english": "https:\/\/fast.wistia.net\/embed\/iframe\/otcfoxjwje?seo=true&amp;amp;amp;videoFoam=false",
+                "hindi": "https:\/\/fast.wistia.net\/embed\/iframe\/rr18imoqa5?web_component=true&amp;amp;amp;seo=true"
+            },
+            "plot": " mitsuhabdjs ",
+            "studio": "Comix Wave",
+            "writer": "Makoto Shinkai",
+            "year": "2016",
+            "genres": [
+                "Romance",
+                "Time Travel",
+                "Supernatural"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "Suzume",
+                "japanese": "すずめの戸締まり (Suzume no Tojimari)"
+            },
+            "duration": "02:02:00",
+            "rating": {
+                "mal": "8.3",
+                "imdb": "7.6"
+            },
+            "album": "https:\/\/i.ibb.co.com\/Rbkx7W1\/suzume-album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/gyYjs1G\/suzume-banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/mNdRZn6\/suzume-bg.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/MBHnm73\/suzume-ss1.jpg",
+                "https:\/\/i.ibb.co.com\/GJdqG7Y\/suzume-ss2.jpg",
+                "https:\/\/i.ibb.co.com\/7ns4v3W\/suzume-ss3.jpg",
+                "https:\/\/i.ibb.co.com\/0nmrpmg\/suzume-ss4.jpg",
+                "https:\/\/i.ibb.co.com\/4msVFtY\/suzume-ss5.jpg"
+            ],
+            "trailer": "https:\/\/www.youtube.com\/embed\/g0JMPkn7Wuo?si=1MDqvRml43UJg4Dk",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Suzume",
+            "download": "https:\/\/s3taku.com\/download?id=MjAzMTM0&amp;amp;amp;typesub=Gogoanime-SUB&amp;amp;amp;title=Suzume+no+Tojimari+Episode+1",
+            "video": {
+                "japanese": "https:\/\/fast.wistia.net\/embed\/iframe\/u9vakbgihd?seo=true&amp;amp;amp;videoFoam=false",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Suzume Iwato is a seventeen-year-old orphaned high-school girl living with her aunt in a town in Kyushu. She has recurring dreams of her childhood self walking through a ruined cityscape at night, before running into a shadowy figure she believes to be her late mother. On her way to school one morning, Suzume meets a young man searching for abandoned locations with doors. She tells him of a nearby abandoned onsen resort, and curiously follows him. There, she discovers a door free-standing on its frame. Suzume opens it to see a starlit field through the doorway, which she cannot enter. She then trips over a cat statue on the floor, which turns into a real cat and flees. Frightened, Suzume rushes to school.\r\n\r\nDuring lunch, Suzume notices a huge column of smoke from the location of the abandoned resort, which no one else can see. She returns there and finds the man from earlier, struggling to close the door through which the smoke is escaping. Suzume helps him, and he locks the door with an old key. The worm-like smoke disappears, but not before causing earthquake damage to the town.",
+            "studio": "Comix Wave",
+            "writer": "Makoto Shinkai",
+            "year": "2022",
+            "genres": [
+                "Supernatural",
+                "Adventure",
+                "Magic"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "The Boy And The Heron",
+                "japanese": "君たちはどう生きるか (Kimitachi wa Dō Ikiru ka)"
+            },
+            "duration": "02:04:00",
+            "rating": {
+                "mal": "7.6",
+                "imdb": "7.4"
+            },
+            "album": "https:\/\/i.ibb.co.com\/SVgWDZs\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/wsdbzXw\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/wCY4fVW\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/tJytDx3\/ss1.jpg",
+                "https:\/\/i.ibb.co.com\/dK41Mdg\/ss2.jpg",
+                "https:\/\/i.ibb.co.com\/LnsGbmw\/ss3.jpg",
+                "https:\/\/i.ibb.co.com\/zbXmDhF\/ss4.jpg",
+                "https:\/\/i.ibb.co.com\/xXn20V9\/ss5.jpg",
+                "https:\/\/i.ibb.co.com\/P4sFKCq\/ss6.jpg",
+                "https:\/\/i.ibb.co.com\/b6fqrRG\/ss7.jpg",
+                "https:\/\/i.ibb.co.com\/J2TSm9N\/ss8.jpg"
+            ],
+            "trailer": "https:\/\/www.youtube.com\/embed\/t5khm-VjEu4?si=FQlV0t-ywiKtTUPf",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/The_Boy_and_the_Heron",
+            "download": "https:\/\/s3taku.com\/download?id=MjI3MzI2&amp;typesub=Gogoanime-SUB&amp;title=Kimitachi+wa+Dou+Ikiru+ka+Episode+1",
+            "video": {
+                "japanese": "https:\/\/fast.wistia.net\/embed\/iframe\/bh7y3nz0oq?seo=true&amp;videoFoam=false",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "During the Pacific War in Tokyo, Mahito Maki loses his mother Hisako in a hospital fire. Mahito&#039;s father Shoichi, an air munitions factory owner, marries his late wife&#039;s sister, Natsuko, and they evacuate to her rural estate. Mahito, distant to the pregnant Natsuko, encounters a peculiar grey heron leading him to a sealed tower, the last known location of Natsuko&#039;s architect granduncle.\r\n\r\nAfter a school fight, Mahito deliberately injures himself. The heron, now speaking, entices Mahito with promises of finding his mother. Mahito is nearly taken by a swarm of creatures, but Natsuko saves him with a whistling arrow, inspiring him to craft his own bow and arrow. The arrow is magically imbued with true aim after it is fletched with the heron&#039;s feather. Mahito&#039;s reading of a book left by Hisako is interrupted when an ill Natsuko disappears into the forest. Leading one of the estate&#039;s elderly maids, Kiriko, into the tower, Mahito is deceived by a watery imitation of his mother made by the heron, which dissolves at his touch. Affronted, he pierces the heron&#039;s beak with his arrow, revealing a flightless creature, the Birdman, living inside it. A wizard appears, ordering the Birdman to guide Mahito and Kiriko as all three sink into the floor.",
+            "studio": "Studio Ghibli",
+            "writer": "Hayao Miyazaki",
+            "year": "2023",
+            "genres": [
+                "Adventure",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "status": "completed",
+            "trending": true
+        }
+    ]
+}

@@ -1,0 +1,571 @@
+{
+    "anime_data": [
+        {
+            "name": {
+                "english": "Your Name",
+                "japanese": "君の名は (Kimi No Na Wa)"
+            },
+            "duration": "01:47:00",
+            "rating": {
+                "mal": "8.9",
+                "imdb": "8.4"
+            },
+            "album": "https:\/\/i.ibb.co.com\/xDwY2BC\/your-name-album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/CPS1SQy\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/jFxs6pK\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/jVLtjxZ\/your-name-ss1.jpg",
+                "https:\/\/i.ibb.co.com\/FJyv7Zs\/your-name-ss2.jpg",
+                "https:\/\/i.ibb.co.com\/R4zx7sR\/your-name-ss3.jpg",
+                "https:\/\/i.ibb.co.com\/JcwNVv1\/your-name-ss4.jpg",
+                "https:\/\/i.ibb.co.com\/RB08dWR\/your-name-ss5.jpg",
+                "https:\/\/i.ibb.co.com\/pxW2twT\/your-name-ss6.jpg",
+                "https:\/\/i.ibb.co.com\/MGYcF8Q\/your-name-ss7.jpg",
+                "https:\/\/i.ibb.co.com\/b3wnf03\/your-name-ss8.jpg"
+            ],
+            "trailer": "https:\/\/www.youtube.com\/embed\/3KR8_igDs1Y?si=LyWA14VaqTZAkKGL",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Your_Name",
+            "download": "https:\/\/s3taku.com\/download?id=NzU4ODg=&amp;amp;amp;typesub=Gogoanime-SUB&amp;amp;amp;title=Kimi+no+Na+wa.+Episode+1",
+            "video": {
+                "japanese": "https:\/\/fast.wistia.net\/embed\/iframe\/2zh0m22eol?seo=true&amp;amp;amp;videoFoam=false",
+                "english": "https:\/\/fast.wistia.net\/embed\/iframe\/otcfoxjwje?seo=true&amp;amp;amp;videoFoam=false",
+                "hindi": "https:\/\/fast.wistia.net\/embed\/iframe\/rr18imoqa5?web_component=true&amp;amp;amp;seo=true"
+            },
+            "plot": " Mitsuha Miyamizu is a high school student in the rural town of Itomori, Japan. Bored of the town, she wishes to be a Tokyo boy in her next life. Soon, she begins to intermittently switch bodies with Taki Tachibana, a boy from Tokyo. On certain days, Taki and Mitsuha wake up in each other's bodies and must live the entire day as the other, reverting when they go to sleep at night. The two set up ground rules for sharing their bodies, communicating via messages on paper, their phones, and their skin. Mitsuha (in Taki's body) sets Taki up on a date with his coworker, Miki Okudera, while Taki (in Mitsuha's body) helps Mitsuha become more popular at school. While in Mitsuha's body, Taki accompanies Mitsuha's grandmother Hitoha and younger sister Yotsuha to the Shinto shrine on a mountain near Itomori, leaving an offering of kuchikamizake made with Mitsuha's saliva. Hitoha explains that God is the ruler over both time and the connections between humans. Mitsuha tells Taki that the comet Tiamat is expected to pass nearest to Earth on the day of the autumn festival. The next day, Taki goes on a date with Miki in his own body; Miki enjoys the date but says she can tell Taki is preoccupied with someone else. Realizing he is falling for Mitsuha, Taki attempts to call her on the phone but cannot reach her. The body-switching stops as inexplicably as it started. ",
+            "studio": "Comix Wave",
+            "writer": "Makoto Shinkai",
+            "year": "2016",
+            "genres": [
+                "Romance",
+                "Time Travel",
+                "Supernatural"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "Suzume",
+                "japanese": "すずめの戸締まり (Suzume no Tojimari)"
+            },
+            "duration": "02:02:00",
+            "rating": {
+                "mal": "8.3",
+                "imdb": "7.6"
+            },
+            "album": "https:\/\/i.ibb.co.com\/Rbkx7W1\/suzume-album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/gyYjs1G\/suzume-banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/mNdRZn6\/suzume-bg.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/MBHnm73\/suzume-ss1.jpg",
+                "https:\/\/i.ibb.co.com\/GJdqG7Y\/suzume-ss2.jpg",
+                "https:\/\/i.ibb.co.com\/7ns4v3W\/suzume-ss3.jpg",
+                "https:\/\/i.ibb.co.com\/0nmrpmg\/suzume-ss4.jpg",
+                "https:\/\/i.ibb.co.com\/4msVFtY\/suzume-ss5.jpg"
+            ],
+            "trailer": "https:\/\/www.youtube.com\/embed\/g0JMPkn7Wuo?si=1MDqvRml43UJg4Dk",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Suzume",
+            "download": "https:\/\/s3taku.com\/download?id=MjAzMTM0&amp;amp;amp;typesub=Gogoanime-SUB&amp;amp;amp;title=Suzume+no+Tojimari+Episode+1",
+            "video": {
+                "japanese": "https:\/\/fast.wistia.net\/embed\/iframe\/u9vakbgihd?seo=true&amp;amp;amp;videoFoam=false",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Suzume Iwato is a seventeen-year-old orphaned high-school girl living with her aunt in a town in Kyushu. She has recurring dreams of her childhood self walking through a ruined cityscape at night, before running into a shadowy figure she believes to be her late mother. On her way to school one morning, Suzume meets a young man searching for abandoned locations with doors. She tells him of a nearby abandoned onsen resort, and curiously follows him. There, she discovers a door free-standing on its frame. Suzume opens it to see a starlit field through the doorway, which she cannot enter. She then trips over a cat statue on the floor, which turns into a real cat and flees. Frightened, Suzume rushes to school.\r\n\r\nDuring lunch, Suzume notices a huge column of smoke from the location of the abandoned resort, which no one else can see. She returns there and finds the man from earlier, struggling to close the door through which the smoke is escaping. Suzume helps him, and he locks the door with an old key. The worm-like smoke disappears, but not before causing earthquake damage to the town.",
+            "studio": "Comix Wave",
+            "writer": "Makoto Shinkai",
+            "year": "2022",
+            "genres": [
+                "Supernatural",
+                "Adventure",
+                "Magic"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "Weathering With You",
+                "japanese": "天気の子 (Tenki no Ko)"
+            },
+            "duration": "01:54:00",
+            "rating": {
+                "mal": "8.3",
+                "imdb": "7.5"
+            },
+            "album": "https:\/\/i.ibb.co.com\/M9v4FT9\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/M7xZP7S\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/W3Y9fJ1\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/9Wvk3tK\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/LDyHnXY\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/CthQJKx\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/jVr6Myx\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/rvsrW9q\/ss-5.jpg",
+                "https:\/\/i.ibb.co.com\/d0643qS\/ss-6.jpg",
+                "https:\/\/i.ibb.co.com\/7Snqt3T\/ss-7.jpg",
+                "https:\/\/i.ibb.co.com\/HxkZZG4\/ss-8.jpg",
+                "https:\/\/i.ibb.co.com\/PY6DNwQ\/ss-9.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/ps8qwWG8Uio",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Weathering_with_You",
+            "download": "https:\/\/s3taku.com\/download?id=MTM5MDA3&amp;typesub=Gogoanime-SUB&amp;title=Tenki+no+Ko+Episode+1",
+            "video": {
+                "japanese": "https://fast.wistia.net/embed/iframe/sii0d255hw?web_component=true&seo=true",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "In June 2021, high schooler Hodaka Morishima runs away from home. When his ferry to Tokyo is hit by a torrential rainstorm, he is almost washed away, but is saved by Keisuke Suga. Suga gives the boy his business card and tells him to call if he needs a job. Hodaka struggles to find work in the city. He finds an abandoned Makarov PM handgun and keeps it even though guns are illegal. He meets Hina Amano, a McDonald&#039;s employee, who pities him and gives him free food. Suga hires him as his assistant; he and his niece publish a small occult magazine investigating strange phenomena, including the unusually rainy weather. They hear the legend of &quot;sunshine girls&quot; who can stop rain, and bring sunshine. Hodaka sees Hina being intimidated into working at a club and in panic, fires his gun at the club owner, barely missing him. Frightened, he throws the gun aside. Hina takes him to Yoyogi Kaikan, an abandoned building with a shrine on the roof, and amazes him by demonstrating her ability to clear the sky by praying. Hodaka learns that Hina is an orphan living alone with her younger brother Nagi. Seeing that they&#039;re also in financial trouble, Hodaka proposes they start a business having Hina clear the weather for social gatherings. Their business becomes a success, but Hina is filmed and shown on television, leading to their site getting flooded with requests. They decide to temporarily suspend business to let Hina rest. Meanwhile, Suga and Natsumi interview the old priest of a shrine who tells them the legend of &quot;Weather Maidens&quot; who can control the rain, adding that they pay a heavy price for their powers.",
+            "studio": "Comix Wave",
+            "writer": "Makoto Shinkai",
+            "year": "2019",
+            "genres": [
+                "Romance",
+                "Fantasy",
+                "Thriller"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "A Silent Voice",
+                "japanese": "聲の形 (Koe no Katachi)"
+            },
+            "duration": "02:09:00",
+            "rating": {
+                "mal": "8.9",
+                "imdb": "8.1"
+            },
+            "album": "https:\/\/i.ibb.co.com\/dbVD9Zk\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/1qqMp0P\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/Stw22Gv\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/j6h7hWy\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/VjQhy3B\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/tKWW3SJ\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/KcgPZNv\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/2K8g4Sz\/ss-5.jpg",
+                "https:\/\/i.ibb.co.com\/G73GZ6s\/ss-6.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/TQK9By9qQiw",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/A_Silent_Voice_(film)",
+            "download": "https:\/\/s3taku.com\/download?id=OTgyMzM=&amp;typesub=Gogoanime-SUB&amp;title=Koe+no+Katachi+-+MOVIE+Episode+1",
+            "video": {
+                "japanese": "https://fast.wistia.net/embed/iframe/v35jxx8ul4?web_component=true&seo=true",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Shōya Ishida and his friends bully Shōko Nishimiya, a transfer student who was born deaf. When the principal learns of the bullying, Shōya&#039;s friends frame him as the sole perpetrator. Shōya blames Shōko when she tries to help him, and they get into a physical altercation. The latter is subsequently transferred to another school, with Shōya keeping her notebook.\r\n\r\nWith his reputation as a bully following him through middle school, Shōya becomes a depressed loner in high school who believes suicide is his only absolution. However, he makes amends with those he has wronged before ending his life. Shōya reconciles with Shōko when returning her notebook at the sign language center she attends, realizing she is still lonely due to her shyness. Shōya is also befriended by Tomohiro Nagatsuka, a similarly friendless classmate who feels indebted to Shōya for saving him from a bully.",
+            "studio": "Kyoto Animation",
+            "writer": "Yoshitoki Ōima",
+            "year": "2016",
+            "genres": [
+                "Romance",
+                "Drama",
+                "School"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "I Want To Eat Your Pancreas",
+                "japanese": "君の膵臓をたべたい (Kimi no Suizō o Tabetai)"
+            },
+            "duration": "01:48:00",
+            "rating": {
+                "mal": "8.6",
+                "imdb": "8.1"
+            },
+            "album": "https:\/\/i.ibb.co.com\/gycLJLk\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/DYMgb4n\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/D16VJRk\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/DWnv6PP\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/ck7Mqxy\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/7KV41dS\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/mqJs1FZ\/ss-4.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/HuN15mDKakk",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/I_Want_to_Eat_Your_Pancreas_(film)",
+            "download": "https:\/\/s3taku.com\/download?id=MTExNzIz&amp;typesub=Gogoanime-SUB&amp;title=Kimi+no+Suizou+wo+Tabetai+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "An unnamed male high school student comes across a book in a hospital waiting room. He soon discovers that it is a diary kept by his very popular classmate Sakura Yamauchi, who reveals to him that she is secretly suffering from a fatal illness in her pancreas. Despite this, Sakura intends to maintain a normal school life and thus is drawn to him due to his relatively unfazed reaction to her condition. They begin to spend time together and become friends.",
+            "studio": "Studio VOLN",
+            "writer": "Yoru Sumino",
+            "year": "2018",
+            "genres": [
+                "Romance",
+                "Drama",
+                "Emotional"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "The Boy And The Heron",
+                "japanese": "君たちはどう生きるか (Kimitachi wa Dō Ikiru ka)"
+            },
+            "duration": "02:04:00",
+            "rating": {
+                "mal": "7.6",
+                "imdb": "7.4"
+            },
+            "album": "https:\/\/i.ibb.co.com\/SVgWDZs\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/wsdbzXw\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/wCY4fVW\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/tJytDx3\/ss1.jpg",
+                "https:\/\/i.ibb.co.com\/dK41Mdg\/ss2.jpg",
+                "https:\/\/i.ibb.co.com\/LnsGbmw\/ss3.jpg",
+                "https:\/\/i.ibb.co.com\/zbXmDhF\/ss4.jpg",
+                "https:\/\/i.ibb.co.com\/xXn20V9\/ss5.jpg",
+                "https:\/\/i.ibb.co.com\/P4sFKCq\/ss6.jpg",
+                "https:\/\/i.ibb.co.com\/b6fqrRG\/ss7.jpg",
+                "https:\/\/i.ibb.co.com\/J2TSm9N\/ss8.jpg"
+            ],
+            "trailer": "https:\/\/www.youtube.com\/embed\/t5khm-VjEu4?si=FQlV0t-ywiKtTUPf",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/The_Boy_and_the_Heron",
+            "download": "https:\/\/s3taku.com\/download?id=MjI3MzI2&amp;amp;amp;typesub=Gogoanime-SUB&amp;amp;amp;title=Kimitachi+wa+Dou+Ikiru+ka+Episode+1",
+            "video": {
+                "japanese": "https:\/\/fast.wistia.net\/embed\/iframe\/bh7y3nz0oq?seo=true&amp;amp;amp;videoFoam=false",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "During the Pacific War in Tokyo, Mahito Maki loses his mother Hisako in a hospital fire. Mahito&amp;amp;#039;s father Shoichi, an air munitions factory owner, marries his late wife&amp;amp;#039;s sister, Natsuko, and they evacuate to her rural estate. Mahito, distant to the pregnant Natsuko, encounters a peculiar grey heron leading him to a sealed tower, the last known location of Natsuko&amp;amp;#039;s architect granduncle.\r\n\r\nAfter a school fight, Mahito deliberately injures himself. The heron, now speaking, entices Mahito with promises of finding his mother. Mahito is nearly taken by a swarm of creatures, but Natsuko saves him with a whistling arrow, inspiring him to craft his own bow and arrow. The arrow is magically imbued with true aim after it is fletched with the heron&amp;amp;#039;s feather. Mahito&amp;amp;#039;s reading of a book left by Hisako is interrupted when an ill Natsuko disappears into the forest. Leading one of the estate&amp;amp;#039;s elderly maids, Kiriko, into the tower, Mahito is deceived by a watery imitation of his mother made by the heron, which dissolves at his touch. Affronted, he pierces the heron&amp;amp;#039;s beak with his arrow, revealing a flightless creature, the Birdman, living inside it. A wizard appears, ordering the Birdman to guide Mahito and Kiriko as all three sink into the floor.",
+            "studio": "Studio Ghibli",
+            "writer": "Hayao Miyazaki",
+            "year": "2023",
+            "genres": [
+                "Adventure",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "status": "completed",
+            "trending": true
+        },
+        {
+            "name": {
+                "english": "Spirited Away",
+                "japanese": "千と千尋の神隠し (Sen to Chihiro no Kamikakushi)"
+            },
+            "duration": "02:05:00",
+            "rating": {
+                "mal": "8.8",
+                "imdb": "8.6"
+            },
+            "album": "https:\/\/i.ibb.co.com\/7xYkDhF5\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/4nRbhNxQ\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/50v2tZm\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/YzYgwP6\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/ds5hRSH3\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/60B0fJ3Q\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/zhs7qz3k\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/svGwK514\/ss-6.jpg",
+                "https:\/\/i.ibb.co.com\/6cGsJ7p7\/ss-5.jpg",
+                "https:\/\/i.ibb.co.com\/KjKNZtdv\/ss-8.jpg",
+                "https:\/\/i.ibb.co.com\/9mSk8FW9\/ss-7.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/fDUFP7EeXLE",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Spirited_Away",
+            "download": "https:\/\/s3taku.com\/download?id=MjIxNDM5&amp;typesub=Gogoanime-SUB&amp;title=Sen+to+Chihiro+no+Kamikakushi+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Ten-year-old Chihiro Ogino and her parents Akio and Yūko travel to their new home. Akio, taking a shortcut, stops in front of a tunnel leading to what appears to be an abandoned amusement park, which Yūko insists on exploring over Chihiro&#039;s protestations. Upon finding a seemingly empty restaurant still stocked with food, Chihiro&#039;s parents immediately begin to eat. While exploring further, Chihiro finds an enormous bathhouse and meets a boy named Haku, who warns her to return across the riverbed before sunset. However, Chihiro discovers her parents have been transformed into pigs and she cannot cross the now-flooded river.",
+            "studio": "Studio Ghibli",
+            "writer": "Hayao Miyazaki",
+            "year": "2001",
+            "genres": [
+                "Adventure",
+                "Fantasy",
+                "Kids"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "A Whisker Away",
+                "japanese": "泣きたい私は猫をかぶる (Nakitai Watashi wa Neko o Kaburu)"
+            },
+            "duration": "01:44:00",
+            "rating": {
+                "mal": "7.4",
+                "imdb": "6.7"
+            },
+            "album": "https:\/\/i.ibb.co.com\/LdLb8GfC\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/1t6M6q7s\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/3yRY2ckz\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/0jP4bfzM\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/k2Dt4zHP\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/JRSV8BPT\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/ZpfDLXCG\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/fzDSpkrx\/ss-5.jpg",
+                "https:\/\/i.ibb.co.com\/zHmhVv56\/ss-6.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/aXc9DVfLTGo",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/A_Whisker_Away",
+            "download": "https:\/\/s3taku.com\/download?id=MTQxNDAz&amp;typesub=Gogoanime-SUB&amp;title=Nakitai+Watashi+wa+Neko+wo+Kaburu+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Miyo Sasaki is a 14-year-old[4] girl living in the town of Tokoname, Aichi Prefecture. She does not get along with her stepmother, Kaoru. She always flirts with her crush, the handsome Kento Hinode, even though he has no romantic feelings for her at all, and often stays away from her. One day, she receives a magical Noh mask from a mysterious mask seller, which lets her become a cat. As &quot;Tarō,&quot;  she spends time with Hinode, keeps him company while he studies Japanese pottery, and listens to his problems. She longs to confess that the cat he loves and the girl he dislikes are the same person.",
+            "studio": "Studio Colorido",
+            "writer": "Mari Okada",
+            "year": "2020",
+            "genres": [
+                "Fantasy",
+                "Romance",
+                "Adventure"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "To Me, the One Who Loved You",
+                "japanese": "君を愛したひとりの僕へ (Kimi wo Aishita Hitori no Boku e)"
+            },
+            "duration": "01:38:00",
+            "rating": {
+                "mal": "7.4",
+                "imdb": "6.9"
+            },
+            "album": "https:\/\/i.ibb.co.com\/0p5v4SMt\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/pBZVF2jk\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/Sw1ZBWcd\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/mFX3cHjp\/ss-1.jpg"
+            ],
+            "trailer": "https:\/\/m.youtube.com\/watch?v=5ypYxc6mG4o",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/To_Me,_the_One_Who_Loved_You_(film)",
+            "download": "https:\/\/s3taku.com\/download?id=MjAyMDQ1&amp;typesub=Gogoanime-SUB&amp;title=Kimi+wo+Aishita+Hitori+no+Boku+e+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "In a parallel world, seven-year-old Koyomi chooses to live with his father Shodai Hidaka following his parents&#039; divorce. At Imaginary Science Research Institute, Koyomi listens to his father explaining Imaginary Science, the study of parallel worlds, and Imaginality, the individual&#039;s consciousness that shifts between worlds called Parallel Shift. He is then informed that his grandfather&#039;s dog, Yuno, has died in an accident. Shiori Satō, daughter of the Institute&#039;s director Genko, finds him crying, so she brings him to an IP capsule that is capable of bringing an individual to parallel worlds. Koyomi shifts to a world where Yuno is alive but also where his grandfather has passed away. Returning to his original world, Koyomi learns that Shiori has helped him in exchange for his help in operating the capsule and sending her to a world where her parents are not divorced, but Genko stops them. Since then, Koyomi and Shiori become close friends as they grow up together.",
+            "studio": "Toei Company",
+            "writer": "Yomoji Otono",
+            "year": "2022",
+            "genres": [
+                "Romance",
+                "Time Travel",
+                "Sci-fi"
+            ],
+            "status": "completed",
+            "trending": true
+        },
+        {
+            "name": {
+                "english": "To Every You I've Loved Before",
+                "japanese": "僕が愛したすべての君へ (Boku ga Aishita Subete no Kimi e)"
+            },
+            "duration": "01:42:00",
+            "rating": {
+                "mal": "7.5",
+                "imdb": "6.9"
+            },
+            "album": "https:\/\/i.ibb.co.com\/rKX1q28F\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/s97H9Bx4\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/rKX1q28F\/album.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/3ywtHd6c\/ss-1.jpg"
+            ],
+            "trailer": "https:\/\/m.youtube.com\/watch?v=jmu-Pp3saRc",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/To_Every_You_I%27ve_Loved_Before_(film)",
+            "download": "https:\/\/s3taku.com\/download?id=MjAyMTUw&amp;typesub=Gogoanime-SUB&amp;title=Boku+ga+Aishita+Subete+no+Kimi+e+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Old Koyomi Takasaki notices a note from his IP device informing him about a meet-up at 10 AM today, August 17, but he cannot recall it. After being encouraged by his wife Kazune to show up at the meeting place, Koyomi arrives at the Showa-dori intersection and meets the ghost form of Shiori Satō&#039;s Imaginality, her consciousness, who is waiting for him. After she disappeared, Koyomi deduces that a shift to a parallel world, called Parallel Shift, has taken place, but his IP device shows an error message upon checking it to determine how far he is from the original world.",
+            "studio": "Toei Company",
+            "writer": "Yomoji Otono",
+            "year": "2022",
+            "genres": [
+                "Romance",
+                "Time Travel",
+                "Sci-fi"
+            ],
+            "status": "completed",
+            "trending": true
+        },
+        {
+            "name": {
+                "english": "Josee: the Tiger and the Fish",
+                "japanese": "ジョゼと虎と魚たち (Joze to Tora to Sakanatachi)"
+            },
+            "duration": "01:38:00",
+            "rating": {
+                "mal": "8.4",
+                "imdb": "7.6"
+            },
+            "album": "https:\/\/i.ibb.co.com\/MDbz7c8P\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/84TSK74f\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/GQ0jbFb5\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/S7NjBxTR\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/YFKcxQ0V\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/r2xnGPy3\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/xtK5fdxd\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/HfpdFXq6\/ss-5.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/e-IK7x8LI50?si=c4IIfe1zXlr_9wtU",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Josee,_the_Tiger_and_the_Fish_(2020_film)",
+            "download": "https:\/\/s3taku.com\/download?id=MTgxODAx&amp;typesub=Gogoanime-DUB&amp;title=Josee+to+Tora+to+Sakana-tachi+%28Dub%29+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Tsuneo Suzukawa is a university student, studying marine biology and working part-time at the diving shop in Osaka. One night, he saves Kumiko Yamamura (Josee), a wheelchair owner with disabled legs. When she and her grandmother Chizu invite Tsuneo to their house, he becomes a caretaker, encouraged by Chizu. At first, Josee becomes selfish at Tsuneo, every time he visits her each day. When he enters the room without permission, he prevents her from leaving the house. She tells him to travel away from the city and visit the beach, where they spend time together. After the incident, they make a relationship. Josee tries to read books and impress the children at the library, but her drawing appeals to them. She plans to become an illustrator.",
+            "studio": "Bones",
+            "writer": "Seiko Tanabe",
+            "year": "2020",
+            "genres": [
+                "Romance",
+                "Comedy"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "Whisper Of The Heart",
+                "japanese": "耳をすませば (Mimi o Sumaseba)"
+            },
+            "duration": "01:51:00",
+            "rating": {
+                "mal": "8.2",
+                "imdb": "7.8"
+            },
+            "album": "https:\/\/i.ibb.co.com\/d0N6HqHj\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/Wvh8SGYF\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/twWQyypH\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/8npJCWQ3\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/4g5LZtm3\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/MyvdN9H6\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/Lh58tsC9\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/VWS30KzB\/ss-5.jpg",
+                "https:\/\/i.ibb.co.com\/602TPbRg\/ss-6.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/0pVkiod6V0U",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Whisper_of_the_Heart",
+            "download": "https:\/\/s3taku.com\/download?id=NDAzNjU=&amp;typesub=Gogoanime-SUB&amp;title=Whisper+of+the+Heart+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Shizuku Tsukishima is a 14-year-old student at Mukaihara Junior High School, where she is best friends with Yūko Harada. She lives in Tokyo with her parents Asako and Seiya and older sister Shiho, and is keen on creative writing. One evening, she looks through the checkout cards in her library books and discovers they were all checked out previously by someone named Seiji Amasawa.",
+            "studio": "Studio Ghibli",
+            "writer": "Aoi Hiiragi",
+            "year": "1995",
+            "genres": [
+                "Family",
+                "Romance",
+                "Fantasy"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "The Cat Returns",
+                "japanese": "猫の恩返し (Neko no Ongaeshi)"
+            },
+            "duration": "01:15:00",
+            "rating": {
+                "mal": "7.7",
+                "imdb": "7.1"
+            },
+            "album": "https:\/\/i.ibb.co.com\/nTLgL7z\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/9mWC6xrm\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/pcRRtcM\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/KcCnCfB3\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/1t8DwkKb\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/Z6cyZJM1\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/Rf2JmXr\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/s9tfP5Kv\/ss-5.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/25aQLIj6jPM",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/The_Cat_Returns",
+            "download": "https:\/\/s3taku.com\/download?id=NDA4MDk=&amp;typesub=Gogoanime-SUB&amp;title=The+Cat+Returns+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Haru Yoshioka is a shy but noble high school student who has a suppressed ability to talk with cats. One day, she saves a cat from being hit by a truck on a busy road. The cat she saved turns out to be Lune, Prince of the Cat Kingdom. As thanks, the cats give Haru unwanted gifts such as catnip and mice, and she is offered the Prince&#039;s hand in marriage. Her mixed reply is taken as a yes.",
+            "studio": "Studio Ghibli",
+            "writer": "Aoi Hiiragi",
+            "year": "2002",
+            "genres": [
+                "Adventure",
+                "Fantasy",
+                "Comedy"
+            ],
+            "status": "completed",
+            "trending": false
+        },
+        {
+            "name": {
+                "english": "Ponyo",
+                "japanese": "崖の上のポニョ (Gake no Ue no Ponyo)"
+            },
+            "duration": "01:43:00",
+            "rating": {
+                "mal": "8.0",
+                "imdb": "7.6"
+            },
+            "album": "https:\/\/i.ibb.co.com\/TxyyRym0\/album.jpg",
+            "banner": "https:\/\/i.ibb.co.com\/39RjfKB7\/banner.jpg",
+            "background": "https:\/\/i.ibb.co.com\/nqZSjywY\/background.jpg",
+            "screenshots": [
+                "https:\/\/i.ibb.co.com\/gxNt8wg\/ss-1.jpg",
+                "https:\/\/i.ibb.co.com\/Gfpx0wTn\/ss-2.jpg",
+                "https:\/\/i.ibb.co.com\/XQx6qx8\/ss-3.jpg",
+                "https:\/\/i.ibb.co.com\/SwhGwdJk\/ss-4.jpg",
+                "https:\/\/i.ibb.co.com\/PZ3Nf9Qg\/ss-5.jpg",
+                "https:\/\/i.ibb.co.com\/HTRZLwx7\/ss-6.jpg"
+            ],
+            "trailer": "https:\/\/youtu.be\/h6XP82TyFWw",
+            "wiki": "https:\/\/en.m.wikipedia.org\/wiki\/Ponyo",
+            "download": "https:\/\/s3taku.com\/download?id=NDA5Mjk=&amp;typesub=Gogoanime-SUB&amp;title=Ponyo+on+the+Cliff+by+the+Sea+Episode+1",
+            "video": {
+                "japanese": "N\/A",
+                "english": "N\/A",
+                "hindi": "N\/A"
+            },
+            "plot": "Fujimoto, a wizard who was once a human, lives underwater with his daughter Brunhilde and her numerous smaller sisters, who are goldfish-like creatures with human faces. While she and her siblings are on an outing with their father in his four-flippered submarine, Brunhilde sneaks off and floats away on the back of a jellyfish. After an encounter with a fishing trawler, she becomes trapped in a glass jar and drifts to the shore of a small fishing town where she is rescued by a five-year-old boy named Sōsuke. While shattering the jar with a rock, Sōsuke cuts his finger. Brunhilde licks his blood, healing the wound almost instantly. Sōsuke names her Ponyo and promises to protect her. Meanwhile, a distraught Fujimoto searches frantically for his lost daughter whom he believes to have been kidnapped. He calls his wave spirits to recover her, leaving Sōsuke heartbroken and confused by what happened. This causes a major typhoon-like storm across southern Japan.",
+            "studio": "Studio Ghibli",
+            "writer": "Hayao Miyazaki",
+            "year": "2008",
+            "genres": [
+                "Adventure",
+                "Fantasy",
+                "Kids"
+            ],
+            "status": "completed",
+            "trending": false
+        }
+    ]
+}

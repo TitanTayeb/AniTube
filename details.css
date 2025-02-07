@@ -1,0 +1,814 @@
+*
+{
+   -webkit-tap-highlight-color: transparent;
+   box-sizing: border-box;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-family: "Poppins", "Inter", "Marcellus", "DM Serif Display", "Lexend", "Cormorant Garamond", "Dancing Script", "Cardo" serif;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    background: #212529;
+    height: 50px;
+    top: 0;
+    padding: 0 10px;
+    z-index: 1000;
+}
+.head a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.head a img
+{
+    height: 30px;
+    width: auto;
+    margin-left: 5px;
+}
+.head.active a
+{
+    display: none;
+}
+.head.active .search-bar input
+{
+    display: block;
+}
+.search-bar
+{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-bar input{
+    width: 100%;
+    outline: none;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    display: none;
+    font-family: "Marcellus";
+    padding-left: 5px;    
+}
+.search-bar input::placeholder
+{
+    color: whitesmoke;
+    font-weight: 300;
+}
+.search-btn, .menu-btn
+{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-right: 5px;
+    padding: 5px 5px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: 0.2s;
+}
+
+.menu-btn i, .search-btn i
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+
+.menu
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 50px;
+    right: -100vw;
+    z-index: 999;
+    background: #212529;
+    transition: 0.3s ease-in-out;
+}
+.menu.on
+{
+    right: 0;
+}
+.head-navigate
+{
+    gap: 2px;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: center;
+    display: none;
+    margin-left: 12px;
+}
+.head-navigate button:hover
+{
+    color: #25df96;
+}
+.navigate {
+    margin: 8px;
+    gap: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigate button, .head-navigate button {
+    background: #212529;
+    border: none;
+    padding: 8px 10px;
+    transition: 0.1s;
+}
+.navigate button:hover {
+    background: #313539;
+}
+.navigate #category {
+    background: #313539;
+    border-bottom: 2px solid #25df96;
+}
+.navigate button a, .head-navigate button a {
+    text-decoration: none;
+    color: white;
+}
+.head-navigate #category a {
+    color: #25df96;
+}
+.body
+{
+    padding: 12px;
+    flex-wrap: nowrap;
+    max-width: 720px;
+    margin: 24 auto;
+}
+.header {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+.lang
+{
+    z-index: 5;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    color: white;
+    font-size: 12px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+}
+.lang span
+{
+    display: flex;
+    flex-direction: row;
+    line-height: 0;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 6px 8px;
+    gap: 5px;
+    border-radius: 2px;
+}
+.lang span p
+{
+    padding: 0;
+    margin: 0;
+}
+.lang span .na
+{
+    margin: 0;
+    padding: 4px;
+}
+.lang span i
+{
+    font-size: 11px;
+}
+.banner .banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.meta
+{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.about-buttons
+{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2px;
+}
+.anime-album
+{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    object-fit: cover;
+}
+.about {
+    display: grid;
+    justify-content: center;
+    z-index: 10;
+    color: #fff;
+    margin-left: 100px;
+}
+.about-name {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+    margin: 10px 0;
+    font-family: "Marcellus";
+}
+.watch-now
+{
+    border: none;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 4px 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-auto-flow: column;
+    line-height: 0;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, 0.1);
+}
+.watch-now a
+{
+    text-decoration: none;
+}
+.watch-now i
+{
+    font-size: 18px;
+    margin-right: 6px;
+}
+.watch-now p
+{
+    margin-right: 4px;
+}
+.save, .share, .download-btn
+{
+    font-size: 16px;
+    padding: 8px;
+    line-height: 0;
+    white-space: nowrap;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.1s;
+}
+.download-btn {
+    text-decoration: none;
+}
+
+.save:hover,
+.share:hover,
+.watch-now:hover,
+.download-btn:hover
+{
+    color: #2affc0;
+    box-shadow: inset 0 0 0 0.5px #2affc0;
+}
+.save.active
+{
+    color: #2affab;
+}
+
+.description p
+{
+    color: white;
+    font-family: "Lexend";
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+.description
+{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Poppins";
+    word-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    padding: 12px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+}
+.description button
+{
+    color: #48CAE4;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+
+.details {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    padding: 0;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.details::before {
+    top: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: ;
+    z-index: -1;
+    filter: saturate(2) contrast(1.4) brightness(0.8);
+    backdrop-filter: blur(40px);
+}
+.details-time
+{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.details-time span
+{
+    display: flex;
+    flex-direction: row;
+    line-height: 0;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 0;
+}
+.details-time span i
+{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.details-genre span
+{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.details-genre span a
+{
+    display: grid;
+    grid-auto-flow: column;
+    line-height: 0;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;    
+    text-decoration: none;
+    color: white;
+    padding: 2px 6px;
+    font-family: "Inter";
+    font-size: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    text-shadow: none;
+}
+.details-genre span a:hover
+{
+    color: #48CAE4;
+    border: 1px solid #48CAE4;
+}
+.details-genre span a i
+{
+    margin-right: 5px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.details-genre span a:hover i
+{
+    color: #48CAE4;
+}
+.details-about
+{
+    padding: 24px;
+}
+.details-about span {
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-family: "Poppins";
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+.details-about b
+{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+.details-about a {
+    color: #48CAE4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.details-about a:hover {
+    color: #4cace4;
+    text-decoration: underline;
+}
+
+.details-about .genre a {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-auto-flow: column;
+    line-height: 0;
+    white-space: nowrap;
+}
+
+.details-about .genre i {
+    margin-right: 2px;
+    font-size: 10px;
+}
+
+
+.links
+{
+    background: #2b2e34;
+}
+.links h4, .media h4
+{
+    padding: 12px;
+    margin: 0;
+    margin-top: 12px;    
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 500;
+    background: #212529;
+    border-bottom: 2px solid #0f0f0f;
+    display: flex;
+    flex-direction: row;
+    line-height: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.media h4
+{
+    font-weight: 400;
+}
+.wiki h4, .trailer h4
+{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0;
+    margin: 12px;
+    border: none;
+}
+
+
+/* Media Section Styling */
+.media {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+}
+
+.trailer, .wiki {
+    position: relative;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+.wiki
+{
+    padding-bottom: 0;
+}
+.trailer h4, .wiki h4
+{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+.trailer h4 i, .wiki h4 i
+{
+    font-size: 16px;
+    margin-right: 12px;
+}
+.trailer a, .wiki a
+{
+    text-decoration: none;
+    color: #48CAE4;
+    font-family: "Inter";
+    font-size: 13px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+.trailer a i, .wiki a i
+{
+    font-size: 12px;
+}
+.trailer a:hover, .wiki a:hover
+{
+    text-decoration: underline;
+    color: #4cace4;
+}
+
+.screenshots {
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.screenshots img {
+    width: auto;
+    height: auto;
+    max-width: 100vw;
+    object-fit: contain;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.screenshots::-webkit-scrollbar {
+    display: none;
+}
+.ss-details
+{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    margin: 0;
+    padding: 4px 8px;
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    font-size: 12px;
+    backdrop-filter: blur(5px);
+    
+}
+.more-movies
+{
+    margin-top: 12px;
+}
+.more-movies h4
+{
+    padding: 12px;
+    margin: 0;
+    color: white;
+    font-size: 13px;
+    font-family: "Poppins";
+    background: #212529;
+    font-weight: 400;
+    border-bottom: 2px solid #0f0f0f;
+    line-height: 0;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    border-bottom: 2px solid #0f0f0f;
+}
+.more-movies h4 p
+{
+    color: #2affab;
+    margin: 0;
+    padding: 8px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px 8px;
+    padding: 8px;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+    background: #212529;
+}
+.card {
+    position: relative;
+    display: grid;
+    grid-auto-flow: row;
+    text-decoration: none;
+    text-align: left;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    animation: cardLoad 0.6s ease forwards;
+}
+
+
+.card:hover .card-album {
+    transform: scale(0.98);
+}
+.card:hover .card-rating
+{
+    opacity: 1;
+}
+
+
+@keyframes cardLoad {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  50%
+  {
+    opacity: 0;
+    transform: translateY(20px)
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.card-album {
+    width: 100%;
+    aspect-ratio: 3 / 4.5;
+    transition: 0.4s;
+    object-fit: cover;    
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.card-name { 
+    font-size: 13px;
+    margin: 6px 2px;
+    color: #DEE2E6;
+    font-family: "Lexend";
+    font-weight: 400;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card i {
+    margin-right: 4px;
+}
+
+.card-rating {
+    position: absolute;
+    font-size: 12px;
+    z-index: 5;
+    top: 8px;
+    right: 8px;
+    margin: 0;
+    padding: 4px;
+    line-height: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FEE440;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    gap: 6px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.card-rating i, .card-rating p
+{
+    margin: 0;
+    padding: 0;
+}
+.card-duration, .card-genre {
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0;
+    margin: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ADB5BD;
+    line-height: 1;
+    font-family: "Lexend";
+}
+
+
+
+
+@media (min-width: 768px) {
+
+  .search-bar input
+  {
+      width: 200px;
+  }
+  .navigate
+  {
+      display: none;
+  }
+  .body {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      max-width: 1024px;
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      gap: 12px;
+      margin: 24px auto;
+      padding: 0 12px;
+  }
+  .part-1, .part-2 {
+      flex: 2;
+      overflow-y: auto;
+  }
+  .part-2 {
+      flex: 1;
+      flex-wrap: nowrap;
+      overflow-y: auto;
+  }
+  .links h4
+  {
+      margin-top: 0;
+  }
+  .screenshots
+  {
+      height: 200px;
+  }
+  .menu
+  {
+      max-width: 40%;
+  }
+}

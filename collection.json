@@ -1,0 +1,38 @@
+[
+    {
+        "type": "studio",
+        "name": "Studio Ghibli",
+        "logo": "https:\/\/i.ibb.co.com\/2y8LPLy\/ghibli-logo.png",
+        "banner": "https:\/\/i.ibb.co.com\/WHdmxmg\/ghibli-banner.jpg",
+        "bg_video": "https:\/\/fast.wistia.net\/embed\/iframe\/o1qns2bivr?web_component=true&seo=true",
+        "about": "Studio Ghibli is a famous Japanese animation studio known for its beautiful animation and heartfelt stories. Founded in 1985, it has created classics like Spirited Away and My Neighbor Totoro, inspiring audiences worldwide.",
+        "motto": "\"Studio Ghibli creates hand-drawn worlds filled with wonder, blending heartfelt stories with breathtaking animation.\""
+    },
+    {
+        "type": "studio",
+        "name": "Comix Wave",
+        "logo": "https:\/\/i.ibb.co.com\/jRx1R7P\/comix-wave-logo.jpg",
+        "banner": "https:\/\/i.ibb.co.com\/Hdy2Kkq\/comix-wave-banner.jpg",
+        "bg_video": "https:\/\/fast.wistia.net\/embed\/iframe\/0dqhg3802l?web_component=true&seo=true",
+        "about": "Comix Wave Films is a Japanese animation studio best known for producing Your Name and other visually stunning films. Founded in 2007, the studio combines beautiful animation with emotional storytelling, quickly gaining recognition for its work in the anime film industry.",
+        "motto": "\"Comix Wave Films is known for its breathtaking animation and heartfelt stories that captivate audiences through stunning visuals and emotional depth.\""
+    },
+    {
+        "type": "studio",
+        "name": "Kyoto Animation",
+        "logo": "https:\/\/i.ibb.co.com\/6R6b3txb\/kyoto.png",
+        "banner": "https:\/\/i.ibb.co.com\/LdNktjjj\/kyoto-banner.jpg",
+        "bg_video": "N\/A",
+        "about": "Kyoto Animation (KyoAni) is a renowned Japanese animation studio known for high-quality series like Clannad, K-On!, and A Silent Voice. Despite a tragic 2019 arson attack, it remains a key player in the anime industry, celebrated for its emotional storytelling and attention to detail.",
+        "motto": "Kyoto Animation is celebrated for its beautifully detailed animation and emotionally rich stories that resonate deeply with audiences."
+    },
+    {
+        "type": "writer",
+        "name": "Hayao Miyazaki",
+        "logo": "https:\/\/i.ibb.co.com\/WTWTc9S\/Miyazaki.jpg",
+        "banner": "https:\/\/i.ibb.co.com\/jv3pb65F\/Miyazaki-banner.jpg",
+        "bg_video": "N\/A",
+        "about": "Hayao Miyazaki is a legendary Japanese animator, director, and co-founder of Studio Ghibli. Known for his masterful storytelling and breathtaking animation, he has created iconic films like Spirited Away, My Neighbor Totoro, and Princess Mononoke. His works often explore themes of nature, childhood, and resilience, earning him global acclaim and an Academy Award.",
+        "motto": "\"Yet, even amidst the hatred and carnage, life is still worth living. It is possible for wonderful encounters and beautiful things to exist\" - Hayao Miyazaki"
+    }
+]

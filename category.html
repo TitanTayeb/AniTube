@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AniTube - Collections</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="icon" href="https://i.ibb.co.com/tMkJDc1/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+</head>
+<body>
+    <div class="head">
+        <a href="Home.html">
+            <img src="https://i.ibb.co.com/Rpj050r/logo.png" alt="AnimeTube">
+        </a>
+        <div class="head-navigate">
+        <button id="home"><a href="Home.html">Home</a></button>
+        <button id="library"><a href="library.html">Library</a></button>
+        <button id="category"><a href="category.html">Category</a></button>
+        <button id="me"><a href="me.html">Saved</a></button>
+        <button id="about"><a href="about.html">About</a></button>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search anime…">
+            <button class="search-btn">
+                <i class="fi fi-bs-search"></i>
+            </button>
+            <button class="menu-btn">
+                <i class="fi fi-bs-menu-burger"></i>
+            </button>
+        </div>
+    </div>
+    <div id="searchResults" class="search-results">
+        <div class="search-genre"></div>
+        <div class="results"></div>
+    </div>
+    <div class="menu">
+        <button class="close-menu">close menu</button>
+        <div class="random-pick">
+            <h4>Pick random movie</h4>
+            <p>Don't know what to watch? Click this button to choose a random movie to watch. Who knows you might find something good.</p>
+            <a href="#" id="randomButton">Random <i class="fi fi-ss-shuffle"></i></a>
+        </div>
+        <div class="pwa">
+            <h4>PWA app available</h4>
+            <button id="installAppBtn" class="download-btn">Install<i class="fi fi-ss-download"></i></button>
+        </div>
+        <div class="login">
+            <h4>Login / Sign Up</h4>
+            <input type="text" name="" id="username" placeholder="Username">
+            <input type="password" name="" id="password" placeholder="Password">
+            <div class="login-buttons">
+                <button id="login-btn"><i class="fi fi-ss-sign-in-alt"></i>Login</button>
+                <button id="sign-up-btn"><i class="fi fi-ss-user-add"></i>Sign Up</button>
+            </div>
+        </div>
+        <div class="menu-share">
+            <h4>Share this site</h4>
+            <div class="share-buttons">
+                <button class="menu-share-btn">Share<i class="fi fi-ss-share"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="navigate">
+        <button id="home"><a href="Home.html">Home</a></button>
+        <button id="library"><a href="library.html">Library</a></button>
+        <button id="category"><a href="category.html">Category</a></button>
+        <button id="me"><a href="me.html">Saved</a></button>
+        <button id="about"><a href="about.html">About</a></button>
+    </div>
+    <div class="body">
+        <div class="studio">
+            <div class="studios">
+                
+            </div>
+        </div>
+        <div class="writer">
+            <div class="writers">
+                
+            </div>
+        </div>
+    </div>
+    <div class="pop-up hidden">
+        <h5>This is the Category section</h5>
+        <p>You can find different categories here. and collections of animes from different Studios and top Writers here</p>
+        <div class="instructions">
+           <i class="fi fi-ss-bulb"></i> hover at the studio banner to animate these animation doesn't use too much data<br>
+        </div>
+        <button class="close-popup">Okay</button>
+    </div>
+    <footer></footer>
+    <script src="category.js"></script>
+    <script src="react.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

@@ -388,3 +388,10 @@ body.dimmed > *:not(.pop-up) {
     flex: 1;
     gap: 6px;
 }
+
+@media (min-width: 768px) {
+    .menu
+    {
+      max-width: 40%;
+    }
+}

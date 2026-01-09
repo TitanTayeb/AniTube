@@ -29,6 +29,8 @@ let searchButton = document.querySelector(".search-btn");
 
 let longPressTimer;
 
+
+/*
 // Function to handle the long press
 function startLongPress(e) {
     // If the long press starts from the search button, skip the long press logic
@@ -44,6 +46,8 @@ function startLongPress(e) {
 function cancelLongPress() {
     clearTimeout(longPressTimer);
 }
+*/
+
 
 // Event listeners for mouse and touch events
 document.addEventListener("mousedown", startLongPress);

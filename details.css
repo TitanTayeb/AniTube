@@ -292,6 +292,7 @@ body
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     overflow: hidden;
+    backdrop-filter: brightness(200%) saturate(200%);
 }
 .watch-now a
 {
@@ -322,6 +323,7 @@ body
     color: rgba(255, 255, 255, 0.8);
     transition: 0.1s;
     text-decoration: none;
+    backdrop-filter: brightness(200%) saturate(200%);
 }
 .share {
     border-top-right-radius: 4px;
@@ -450,16 +452,6 @@ body
     border-radius: 50px;
     text-shadow: none;
     transition: 0.1s ease-out;
-}
-.details-genre span a::after
-{
-    content: "";
-    position: absolute;
-    top: -1px; bottom: -1px; left: -1px; right: -1px;
-    border-radius: inherit;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: brightness(200%) saturation(200%);
-    pointer-events: none;
 }
 .details-genre span a:hover
 {

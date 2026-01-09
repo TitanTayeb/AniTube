@@ -289,6 +289,8 @@ body
     line-height: 0;
     white-space: nowrap;
     background: rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 .watch-now a
 {
@@ -310,12 +312,14 @@ body
     line-height: 0;
     white-space: nowrap;
     border: none;
-    background: rgba(255, 255, 255, 0.1);;
+    background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.8);
     transition: 0.1s;
 }
 .download-btn {
     text-decoration: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .save:hover,
@@ -435,6 +439,7 @@ body
     font-family: "Inter";
     font-size: 12px;
     border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
     text-shadow: none;
 }
 .details-genre span a:hover

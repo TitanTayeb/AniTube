@@ -293,11 +293,6 @@ body
     border-bottom-left-radius: 4px;
     overflow: hidden;
 }
-.watch-now:hover .watch-now i
-{
-    transform: scale(5);
-    opacity: 0.6
-}
 .watch-now a
 {
     text-decoration: none;
@@ -306,6 +301,11 @@ body
 {
     font-size: 18px;
     margin-right: 6px;
+}
+.watch-now:hover .watch-now i
+{
+    transform: scale(5);
+    opacity: 0.6;
 }
 .watch-now p
 {
@@ -449,6 +449,7 @@ body
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     text-shadow: none;
+    transition: 0.2s ease-in;
 }
 .details-genre span a:hover
 {
@@ -459,10 +460,6 @@ body
     margin-right: 5px;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.8);
-}
-.details-genre span a:hover i
-{
-    color: #48CAE4;
 }
 .details-about
 {

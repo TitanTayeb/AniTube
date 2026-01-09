@@ -279,7 +279,7 @@ body
     font-family: "Poppins";
     font-weight: 600;
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.85);
     padding: 4px 8px;
     text-align: center;
     align-items: center;
@@ -291,6 +291,12 @@ body
     background: rgba(255, 255, 255, 0.1);
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    overflow: hidden;
+}
+.watch-now:hover .watch-now i
+{
+    transform: scale(5);
+    opacity: 0.6
 }
 .watch-now a
 {
@@ -437,17 +443,16 @@ body
     justify-content: center;    
     text-decoration: none;
     color: white;
-    padding: 2px 6px;
+    padding: 2px 12px;
     font-family: "Inter";
     font-size: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     text-shadow: none;
 }
 .details-genre span a:hover
 {
-    color: #48CAE4;
-    border: 1px solid #48CAE4;
+    background: rgba(255, 255, 255, 0.1);
 }
 .details-genre span a i
 {

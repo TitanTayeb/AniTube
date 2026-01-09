@@ -449,7 +449,7 @@ body
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     text-shadow: none;
-    transition: 0.2s ease-in;
+    transition: 0.1s ease-out;
 }
 .details-genre span a:hover
 {

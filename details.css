@@ -293,6 +293,16 @@ body
     border-bottom-left-radius: 4px;
     overflow: hidden;
 }
+.watch-now::after
+{
+    content: "";
+    position: absolute;
+    top: -1px; bottom: -1px; left: -1px; right: -1px;
+    border-radius: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: brightness(200%) saturation(200%);
+    pointer-events: none;
+}
 .watch-now a
 {
     text-decoration: none;

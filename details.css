@@ -292,7 +292,7 @@ body
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     overflow: hidden;
-    backdrop-filter: brightness(200%) saturate(200%);
+    backdrop-filter: brightness(150%) saturate(150%);
 }
 .watch-now a
 {
@@ -323,7 +323,7 @@ body
     color: rgba(255, 255, 255, 0.8);
     transition: 0.1s;
     text-decoration: none;
-    backdrop-filter: brightness(200%) saturate(200%);
+    backdrop-filter: brightness(150%) saturate(150%);
 }
 .share {
     border-top-right-radius: 4px;

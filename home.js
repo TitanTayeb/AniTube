@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="card-info">
                         <h3 class="card-name">${anime.name.english}</h3>
                         <span class="card-plot">${anime.plot}</span>
-                        <span class="card-duration"><i class="fi fi-ss-clock-three"></i><p>${anime.duration}</p></span>
                         <span class="card-genre">
                            <i class="fi fi-ss-tags"></i> <p>${anime.genres.join(", ")}</p>
                         </span>

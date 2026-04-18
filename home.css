@@ -304,8 +304,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    gap: 2px 4px;
-    padding: 0;
+    padding: 4px;
     z-index: 3;
 }
 .prev-btn, 

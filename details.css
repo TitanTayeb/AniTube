@@ -18,7 +18,7 @@ body
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    font-family: "Poppins", "Inter", "Marcellus", "DM Serif Display", "Lexend", "Cormorant Garamond", "Dancing Script", "Cardo" serif;
+    font-family: "Poppins", "Inter", "Marcellus", "DM Serif Display", "Lexend", "Cormorant Garamond", "Dancing Script", "Cardo", "Lora" serif;
 }
 .head
 {
@@ -471,7 +471,7 @@ body
     margin: 0;
     margin-bottom: 8px;
     font-weight: 300;
-    font-family: "Poppins";
+    font-family: "Lora";
     padding: 0;
     color: rgba(255, 255, 255, 0.7);
 }

@@ -322,7 +322,6 @@ body
     color: rgba(255, 255, 255, 0.8);
     transition: 0.1s;
     text-decoration: none;
-    backdrop-filter: brightness(150%);
 }
 .share {
     border-top-right-radius: 4px;

@@ -27,35 +27,7 @@ let head = document.querySelector(".head");
 let searchInput = document.querySelector("#search");
 let searchButton = document.querySelector(".search-btn");
 
-let longPressTimer;
 
-
-/*
-// Function to handle the long press
-function startLongPress(e) {
-    // If the long press starts from the search button, skip the long press logic
-    if (e.target === searchButton) return;
-
-    longPressTimer = setTimeout(() => {
-        head.classList.add("active");
-        searchInput.focus();
-    }, 800);  // 800ms threshold for long press
-}
-
-// Function to cancel long press if user releases touch/mouse early
-function cancelLongPress() {
-    clearTimeout(longPressTimer);
-}
-*/
-
-
-// Event listeners for mouse and touch events
-document.addEventListener("mousedown", startLongPress);
-document.addEventListener("mouseup", cancelLongPress);
-document.addEventListener("mouseleave", cancelLongPress);
-
-document.addEventListener("touchstart", startLongPress);
-document.addEventListener("touchend", cancelLongPress);
 
 // Click functionality for search button
 searchButton.addEventListener("click", function () {

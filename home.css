@@ -226,10 +226,10 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 0;
     filter: saturate(1.5) contrast(1.5) brightness(1);
-    backdrop-filter: blur(60px);
+    backdrop-filter: blur(40px);
 }
 
 .carousel-card {

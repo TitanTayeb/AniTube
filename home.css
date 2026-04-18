@@ -228,8 +228,8 @@ body {
     inset: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 0;
-    filter: saturate(1.5) brightness(1);
-    backdrop-filter: blur(40px);
+    filter: saturate(2) brightness(1);
+    backdrop-filter: blur(30px);
 }
 
 .carousel-card {

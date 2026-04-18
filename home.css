@@ -267,7 +267,7 @@ body {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .card-plot {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
     width: 100%;
     margin: 5px 0;
     font-family: "Lora";
@@ -278,7 +278,7 @@ body {
     text-overflow: ellipsis;
     max-height: calc(14px * 3);
 }
-.card-genre, .card-duration, .trending-duration, .trending-genre, .trending-studio, .top-rating {
+.card-genre, .trending-duration, .trending-genre, .trending-studio, .top-rating {
     font-size: 10px;
     margin: 0;
     line-height: 0;
@@ -295,14 +295,6 @@ body {
 .card-genre,
 .card-duration {
     color: rgba(255, 255, 255, 0.6);
-    border: 0.5px solid rgba(255, 255, 255, 0.6);
-    border-radius: 50px;
-}
-.card-genre p,
-.card-duration p
-{
-    border: 0.5px solid rgba(255, 255, 255, 0.6);
-    border-radius: 50px;
 }
 .top-rating {
     color: #FEE440;

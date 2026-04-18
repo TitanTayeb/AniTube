@@ -292,7 +292,7 @@ body
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     overflow: hidden;
-    backdrop-filter: brightness(150%) saturate(150%);
+    backdrop-filter: brightness(150%);
 }
 .watch-now a
 {

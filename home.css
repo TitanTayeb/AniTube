@@ -226,9 +226,9 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 0;
-    filter: saturate(2) brightness(0.5);
+    filter: saturate(2) brightness(0.8);
     backdrop-filter: blur(30px);
 }
 

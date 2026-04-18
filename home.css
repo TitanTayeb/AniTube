@@ -271,7 +271,7 @@ body {
     width: 100%;
     margin: 5px 0;
     font-family: "Lora";
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 14px;
     overflow: hidden;
@@ -279,7 +279,7 @@ body {
     max-height: calc(14px * 3);
 }
 .card-genre, .card-duration, .trending-duration, .trending-genre, .trending-studio, .top-rating {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
     line-height: 0;
     height: 16px;

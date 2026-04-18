@@ -304,10 +304,9 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    gap: 2px;
+    gap: 2px 4px;
     padding: 0;
     z-index: 3;
-    background: green;
 }
 .prev-btn, 
 .next-btn {

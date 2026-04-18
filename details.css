@@ -369,7 +369,8 @@ body
 .description button
 {
     color: white;
-    font-size: 13px
+    font-size: 13px;
+    font-family: "Lexend";
     border: none;
     padding: 0;
     margin: 0;

@@ -267,11 +267,12 @@ body {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .card-plot {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     width: 100%;
     margin: 5px 0;
     font-family: "Lora";
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 14px;
     overflow: hidden;
